@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CommentList>
+  <Comment Thread="dm000001" User="Luis Revisor" VerseRef="ACT 1:3" Language="en" Date="2026-10-02T09:30:00.0000000-05:00">
+    <SelectedText />
+    <StartPosition>0</StartPosition>
+    <ContextBefore />
+    <ContextAfter />
+    <Status></Status>
+    <Type></Type>
+    <ConflictType />
+    <Verse />
+    <HideInTextWindow>false</HideInTextWindow>
+    <Contents>And "many convincing proofs"? We wrote "pruebas".</Contents>
+  </Comment>
+  <Comment Thread="dm000007" User="Luis Revisor" VerseRef="ACT 1:26" Language="en" Date="2026-10-05T12:00:00.0000000-05:00">
+    <SelectedText />
+    <StartPosition>0</StartPosition>
+    <ContextBefore />
+    <ContextAfter />
+    <Status>done</Status>
+    <Type></Type>
+    <ConflictType />
+    <Verse />
+    <HideInTextWindow>false</HideInTextWindow>
+    <Contents>Footnote added.</Contents>
+  </Comment>
+</CommentList>

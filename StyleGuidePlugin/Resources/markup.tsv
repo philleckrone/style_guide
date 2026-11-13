@@ -1,0 +1,33 @@
+# Markup and Layout Module (draft, v1.0, Rev 09-Sep-23): one line per "Our Project" row.
+# id	table	row	survey key	prefill (y/n)	references whose project text is shown
+mk-culture	0	1		n	
+mk-print-size	0	2		n	
+mk-cover	0	3		n	
+mk-columns	1	1		n	
+mk-hyphenation	1	2		n	
+mk-paragraph-length	2	1	paragraphs	y	
+mk-verse-breaks	2	2	mid-verse	y	MAT 26:74; 1CO 11:1
+mk-p	3	1	markers:p	y	
+mk-m	3	2	markers:m	y	
+mk-poetry	3	3	markers:q1,q2,q3	y	
+mk-lists	3	4	markers:lh,lf,li1,li2,li3	y	
+mk-letters	3	5	markers:po,cls	y	
+mk-inscriptions	3	6	markers:pc,sc	y	
+mk-book-names	4	1	markers:mt1,mt2,mt3,mt	y	
+mk-section-headings	4	2	markers:s1,s2,s3,s	y	
+mk-other-1	4	3		n	
+mk-other-2	4	4		n	
+mk-other-3	5	1		n	
+mk-other-4	6	1		n	
+mk-other-5	6	2		n	
+mk-other-6	6	3		n	
+mk-other-7	6	4		n	
+mk-add	7	1	markers:add	y	
+mk-other-8	7	2		n	
+mk-other-9	7	3		n	
+mk-other-10	7	4		n	
+mk-other-11	7	5		n	
+mk-other-12	8	1		n	
+mk-other-13	8	2		n	
+mk-other-14	8	3		n	
+mk-other-15	8	4		n	

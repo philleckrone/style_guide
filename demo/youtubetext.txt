@@ -1,0 +1,23 @@
+﻿Send Notes to Project is a Paratext tool for consultants. A consultant often writes notes in a consultant notes project. With this tool you tick the notes you want the team to see, choose which comment of each note to send, and send them as new notes to the team's project, at the same verses. The note you sent from gets "Sent to ...", so you can see what you already sent. It works one chapter, or one verse, at a time. Start it from the project that will receive the notes, not from the consultant notes project.
+
+Download Install_Phils_tools.exe from the Paratext Plugins folder, and tick Send Notes to Project in it:
+https://short.do/HgUb7T
+
+0:17 How do I open Send Notes to Project?
+0:31 What does the tool do?
+0:46 How do I choose where the notes go?
+0:57 Can I see which notes I already sent?
+1:08 How do I move through the book?
+1:21 How do I choose the notes?
+1:30 Which comment of a note is sent?
+1:45 How do I send the notes?
+1:54 What happens after sending?
+2:09 Can I work one verse at a time?
+2:22 How do I see the verse in Paratext?
+2:31 How do I install the tool?
+
+Created with Claude AI.
+Narration: AI-generated voice (Microsoft Azure AI Speech, voice "Jenny").
+Music from Free To Use
+Source: https://freetouse.com/music
+Coconut Kind of Love by Aetheric

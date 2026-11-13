@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CommentList>
+  <Comment Thread="dm000001" User="Ana Consultora" VerseRef="ACT 1:3" Language="en" Date="2026-10-01T10:00:00.0000000-05:00">
+    <SelectedText />
+    <StartPosition>0</StartPosition>
+    <ContextBefore />
+    <ContextAfter />
+    <Status>todo</Status>
+    <Type></Type>
+    <ConflictType />
+    <Verse />
+    <HideInTextWindow>false</HideInTextWindow>
+    <Contents>First draft: <bold>forty days</bold> is fine here.</Contents>
+  </Comment>
+  <Comment Thread="dm000001" User="Ana Consultora" VerseRef="ACT 1:3" Language="en" Date="2026-10-03T11:15:00.0000000-05:00">
+    <SelectedText />
+    <StartPosition>0</StartPosition>
+    <ContextBefore />
+    <ContextAfter />
+    <Status></Status>
+    <Type></Type>
+    <ConflictType />
+    <Verse />
+    <HideInTextWindow>false</HideInTextWindow>
+    <Contents><p>Final note for the team: "<italic>pruebas</italic>" is good, but add "clear".</p><p>Compare with Luke 24:39-43.</p></Contents>
+  </Comment>
+  <Comment Thread="dm000002" User="Ana Consultora" VerseRef="ACT 1:5" Language="en" Date="2026-10-01T10:20:00.0000000-05:00">
+    <SelectedText />
+    <StartPosition>0</StartPosition>
+    <ContextBefore />
+    <ContextAfter />
+    <Status>todo</Status>
+    <Type></Type>
+    <ConflictType />
+    <Verse />
+    <HideInTextWindow>false</HideInTextWindow>
+    <Contents>Water and Holy Spirit: make the two halves of the verse match, as in Luke 3:16.</Contents>
+  </Comment>
+  <Comment Thread="dm000003" User="Ana Consultora" VerseRef="ACT 1:8" Language="en" Date="2026-10-01T10:40:00.0000000-05:00">
+    <SelectedText />
+    <StartPosition>0</StartPosition>
+    <ContextBefore />
+    <ContextAfter />
+    <Status>todo</Status>
+    <Type></Type>
+    <ConflictType />
+    <Verse />
+    <HideInTextWindow>false</HideInTextWindow>
+    <Contents>Which word do you use for "witnesses"? Use the same word as in Luke 24:48.</Contents>
+  </Comment>
+  <Comment Thread="dm000004" User="Ana Consultora" VerseRef="ACT 1:11" Language="en" Date="2026-10-01T11:00:00.0000000-05:00">
+    <SelectedText />
+    <StartPosition>0</StartPosition>
+    <ContextBefore />
+    <ContextAfter />
+    <Status>todo</Status>
+    <Type></Type>
+    <ConflictType />
+    <Verse />
+    <HideInTextWindow>false</HideInTextWindow>
+    <Contents>"This same Jesus": make clear that the one who comes back is the same Jesus they saw go.</Contents>
+  </Comment>
+  <Comment Thread="dm000005" User="Ana Consultora" VerseRef="ACT 1:13-14" Language="en" Date="2026-10-01T11:20:00.0000000-05:00">
+    <SelectedText />
+    <StartPosition>0</StartPosition>
+    <ContextBefore />
+    <ContextAfter />
+    <Status>todo</Status>
+    <Type></Type>
+    <ConflictType />
+    <Verse />
+    <HideInTextWindow>false</HideInTextWindow>
+    <Contents>Check the spelling of the names against Luke 6:14-16.</Contents>
+  </Comment>
+  <Comment Thread="dm000006" User="Ana Consultora" VerseRef="ACT 1:18" Language="en" Date="2026-10-01T11:40:00.0000000-05:00">
+    <SelectedText />
+    <StartPosition>0</StartPosition>
+    <ContextBefore />
+    <ContextAfter />
+    <Status>todo</Status>
+    <Type></Type>
+    <ConflictType />
+    <Verse />
+    <HideInTextWindow>false</HideInTextWindow>
+    <Contents>Verses 18-19 are an aside by Luke. Consider putting them in parentheses.</Contents>
+  </Comment>
+  <Comment Thread="dm000006" User="Ana Consultora" VerseRef="ACT 1:18" Language="en" Date="2026-11-03T08:00:00.0000000-05:00">
+    <SelectedText />
+    <StartPosition>0</StartPosition>
+    <ContextBefore />
+    <ContextAfter />
+    <Status></Status>
+    <Type></Type>
+    <ConflictType />
+    <Verse />
+    <HideInTextWindow>false</HideInTextWindow>
+    <Contents>Sent to PDT15 on 2026-11-03.</Contents>
+  </Comment>
+  <Comment Thread="dm000007" User="Ana Consultora" VerseRef="ACT 1:26" Language="en" Date="2026-10-01T12:00:00.0000000-05:00">
+    <SelectedText />
+    <StartPosition>0</StartPosition>
+    <ContextBefore />
+    <ContextAfter />
+    <Status>todo</Status>
+    <Type></Type>
+    <ConflictType />
+    <Verse />
+    <HideInTextWindow>false</HideInTextWindow>
+    <Contents>"Cast lots": readers may not know this custom. A footnote could help.</Contents>
+  </Comment>
+  <Comment Thread="dm000008" User="Ana Consultora" VerseRef="ACT 2:3" Language="en" Date="2026-10-02T10:00:00.0000000-05:00">
+    <SelectedText />
+    <StartPosition>0</StartPosition>
+    <ContextBefore />
+    <ContextAfter />
+    <Status>todo</Status>
+    <Type></Type>
+    <ConflictType />
+    <Verse />
+    <HideInTextWindow>false</HideInTextWindow>
+    <Contents>"Tongues as of fire": keep "like", so it does not read as real fire.</Contents>
+  </Comment>
+  <Comment Thread="dm000009" User="Ana Consultora" VerseRef="ACT 2:4" Language="en" Date="2026-10-02T10:20:00.0000000-05:00">
+    <SelectedText />
+    <StartPosition>0</StartPosition>
+    <ContextBefore />
+    <ContextAfter />
+    <Status>todo</Status>
+    <Type></Type>
+    <ConflictType />
+    <Verse />
+    <HideInTextWindow>false</HideInTextWindow>
+    <Contents>"Other tongues" means other languages: say "languages" here.</Contents>
+  </Comment>
+</CommentList>

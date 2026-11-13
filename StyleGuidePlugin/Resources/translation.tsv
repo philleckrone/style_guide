@@ -1,0 +1,297 @@
+# Translation Considerations Module (draft, v1.0, Rev 10-Mar-23): one line per "Our Project" row.
+# id	table	row	survey key	prefill (y/n)	references whose project text is shown
+tr-type	0	1		n	
+tr-titles	0	2		n	
+tr-concordance	0	3		n	
+tr-add	0	4	markers:add	y	MAT 4:4
+tr-1-1	1	1		n	
+tr-1-2	1	2		n	
+tr-1-3	1	3		n	
+tr-1-4	1	4		n	
+tr-2-1	2	1		n	
+tr-3-1	3	1		n	
+tr-3-2	3	2		n	
+tr-3-3	3	3		n	
+tr-3-4	3	4		n	
+tr-3-5	3	5		n	
+tr-3-6	3	6		n	
+tr-3-7	3	7		n	
+tr-3-8	3	8		n	
+tr-3-9	3	9		n	
+tr-3-10	3	10		n	
+tr-3-11	3	11		n	
+tr-3-12	3	12		n	
+tr-3-13	3	13		n	
+tr-3-14	3	14		n	
+tr-3-15	3	15		n	
+tr-3-16	3	16		n	
+tr-3-17	3	17		n	
+tr-3-18	3	18		n	
+tr-3-19	3	19		n	
+tr-3-20	3	20		n	
+tr-3-21	3	21		n	
+tr-3-22	3	22		n	
+tr-3-23	3	23		n	
+tr-3-24	3	24		n	
+tr-3-25	3	25		n	
+tr-3-26	3	26		n	
+tr-3-27	3	27		n	
+tr-3-28	3	28		n	
+tr-3-29	3	29		n	
+tr-4-1	4	1		n	
+tr-4-2	4	2		n	
+tr-4-3	4	3		n	
+tr-4-4	4	4		n	
+tr-4-5	4	5		n	
+tr-4-6	4	6		n	
+tr-4-7	4	7		n	
+tr-4-8	4	8		n	
+tr-4-9	4	9		n	
+tr-4-10	4	10		n	
+tr-4-11	4	11		n	
+tr-4-12	4	12		n	
+tr-4-13	4	13		n	
+tr-4-14	4	14		n	
+tr-4-15	4	15		n	
+tr-4-16	4	16		n	
+tr-4-17	4	17		n	
+tr-4-18	4	18		n	
+tr-4-19	4	19		n	
+tr-4-20	4	20		n	
+tr-4-21	4	21		n	
+tr-4-22	4	22		n	
+tr-4-23	4	23		n	
+tr-4-24	4	24		n	
+tr-5-1	5	1		n	
+tr-5-2	5	2		n	
+tr-god-concordance	6	1	strong:H3068,H0430,H0136,G2316,G2962	y	
+tr-god-ot	6	2	strong:H3068,H0430,H0136	y	
+tr-god-ot-other	6	3	strong:H7706,H5945,H6635	y	
+tr-god-nt	6	4	strong:G2424,G5547,G3323,G2962	y	
+tr-6-1	6	5		n	
+tr-6-2	6	6		n	
+tr-name-aaron	7	1	names:Aaron	y	
+tr-name-abel	7	2	names:Abel	y	
+tr-name-abraham	7	3	names:Abraham	y	
+tr-name-absalom	7	4	names:Absalom	y	
+tr-name-adam	7	5	names:Adam	y	
+tr-name-ahab	7	6	names:Ahab	y	
+tr-name-andrew	7	7	names:Andrew	y	
+tr-name-apollos	7	8	names:Apollos	y	
+tr-name-aquila	7	9	names:Aquila	y	
+tr-name-barnabas	7	10	names:Barnabas	y	
+tr-name-bathsheba	7	11	names:Bathsheba	y	
+tr-name-benjamin	7	12	names:Benjamin	y	
+tr-name-daniel	7	13	names:Daniel	y	
+tr-name-david	7	14	names:David	y	
+tr-name-elijah	7	15	names:Elijah	y	
+tr-name-elisha	7	16	names:Elisha	y	
+tr-name-ephraim	7	17	names:Ephraim	y	
+tr-name-esau	7	18	names:Esau	y	
+tr-name-eve	7	19	names:Eve	y	
+tr-name-ezekiel	7	20	names:Ezekiel	y	
+tr-name-herod	7	21	names:Herod	y	
+tr-name-hezekiah	7	22	names:Hezekiah	y	
+tr-name-isaac	7	23	names:Isaac	y	
+tr-name-isaiah	7	24	names:Isaiah	y	
+tr-name-ishmael	7	25	names:Ishmael	y	
+tr-name-jacob	7	26	names:Jacob	y	
+tr-name-james	7	27	names:James	y	
+tr-name-jeremiah	7	28	names:Jeremiah	y	
+tr-name-jezebel	7	29	names:Jezebel	y	
+tr-name-john	7	30	names:John	y	
+tr-name-john-the-baptist	7	31	names:John	y	
+tr-name-joseph	7	32	names:Joseph	y	
+tr-name-joshua	7	33	names:Joshua	y	
+tr-name-judah	7	34	names:Judah	y	
+tr-name-judas	7	35	names:Judas	y	
+tr-name-mark-john-mark	7	36	names:Mark	y	
+tr-name-mary-mother-of-jesus	7	37	names:Mary	y	
+tr-name-melchizedek	7	38	names:Melchizedek	y	
+tr-name-moses	7	39	names:Moses	y	
+tr-name-noah	7	40	names:Noah	y	
+tr-name-paul	7	41	names:Paul	y	
+tr-name-peter-and-simon	7	42	names:Peter|Simon	y	
+tr-name-phillip	7	43	names:Phillip	y	
+tr-name-pontius-pilate	7	44	names:Pilate	y	
+tr-name-priscilla	7	45	names:Priscilla	y	
+tr-name-samuel	7	46	names:Samuel	y	
+tr-name-sarah	7	47	names:Sarah	y	
+tr-name-saul	7	48	names:Saul	y	
+tr-name-silas	7	49	names:Silas	y	
+tr-name-solomon	7	50	names:Solomon	y	
+tr-name-thomas	7	51	names:Thomas	y	
+tr-name-timothy	7	52	names:Timothy	y	
+tr-name-titus	7	53	names:Titus	y	
+tr-nt-1	8	1	terms@greek:advocate|counselor	y	
+tr-nt-2	8	2	terms@greek:altar	y	
+tr-nt-3	8	3	terms@greek:angel	y	
+tr-nt-4	8	4	terms@greek:anoint|anointing	y	
+tr-nt-5	8	5	terms@greek:antichrist	y	
+tr-nt-6	8	6	terms@greek:apostle	y	
+tr-nt-7	8	7	terms@greek:baptize|baptism	y	
+tr-nt-8	8	8	terms@greek:believe|believing|belief|faith|trust	y	
+tr-nt-9	8	9	terms@greek:bless|blessed|blessing	y	
+tr-nt-10	8	10	terms@greek:body	y	
+tr-nt-11	8	11	terms@greek:chief priest|high priest	y	
+tr-nt-12	8	12	strong:G5547,G3323	y	
+tr-nt-13	8	13	strong:G2424,G5547	y	
+tr-nt-14	8	14	terms@greek:in christ	y	
+tr-nt-15	8	15	terms@greek:son of man	y	
+tr-nt-16	8	16	strong:G2962	y	
+tr-nt-17	8	17	strong:G1988	y	
+tr-nt-18	8	18	strong:G1320	y	
+tr-nt-19	8	19	strong:G4461,G4462	y	
+tr-nt-20	8	20	terms@greek:church	y	
+tr-nt-21	8	21	terms@greek:clean|pure|cleanse|cleansing|purification	y	
+tr-nt-22	8	22	terms@greek:covenant	y	
+tr-nt-23	8	23	terms@greek:cross|crucify	y	
+tr-nt-24	8	24	terms@greek:disciple	y	
+tr-nt-25	8	25	terms@greek:evil spirit|unclean spirit|demon	y	
+tr-nt-26	8	26	terms@greek:fellowship|participation|sharing	y	
+tr-nt-27	8	27	terms@greek:flesh	y	
+tr-nt-28	8	28	terms@greek:forgive|forgiveness	y	
+tr-nt-29	8	29	terms@greek:gentiles|pagans|nations	y	
+tr-nt-30	8	30	terms@greek:glory|glorious|glorify	y	
+tr-nt-31	8	31	strong:G2316	y	
+tr-nt-32	8	32	terms@greek:gospel	y	
+tr-nt-33	8	33	terms@greek:grace|favor	y	
+tr-nt-34	8	34	terms@greek:heart	y	
+tr-nt-35	8	35	terms@greek:heaven|sky	y	
+tr-nt-36	8	36	terms@greek:hell|hades|abyss	y	
+tr-nt-37	8	37	terms@greek:holy|holiness|sanctify|sanctification	y	
+tr-nt-38	8	38	terms@greek:israel|jew|hebrew|circumcised	y	
+tr-nt-39	8	39	terms@greek:judge|judgment	y	
+tr-nt-40	8	40	terms@greek:just|justify|justification|righteous|righteousness	y	
+tr-nt-41	8	41	terms@greek:kingdom of god|kingdom of heaven	y	
+tr-nt-42	8	42	terms@greek:law	y	
+tr-nt-43	8	43	terms@greek:levite	y	
+tr-nt-44	8	44	terms@greek:love	y	
+tr-nt-45	8	45	terms@greek:mediator	y	
+tr-nt-46	8	46	terms@greek:mercy|merciful|pity	y	
+tr-nt-47	8	47	terms@greek:miracle|sign|wonder|mighty work	y	
+tr-nt-48	8	48	terms@greek:name	y	
+tr-nt-49	8	49	terms@greek:parable	y	
+tr-nt-50	8	50	terms@greek:pharisee|sadducee	y	
+tr-nt-51	8	51	terms@greek:priest	y	
+tr-nt-52	8	52	terms@greek:prophet	y	
+tr-nt-53	8	53	terms@greek:reconcile|reconciliation|propitiation	y	
+tr-nt-54	8	54	terms@greek:redeem|redemption|ransom	y	
+tr-nt-55	8	55	terms@greek:repent|repentance	y	
+tr-nt-56	8	56	terms@greek:sabbath	y	
+tr-nt-57	8	57	terms@greek:sacrifice|offering|blood	y	
+tr-nt-58	8	58	terms@greek:satan	y	
+tr-nt-59	8	59	terms@greek:save|salvation|savior	y	
+tr-nt-60	8	60	terms@greek:scribe|teacher of the law	y	
+tr-nt-61	8	61	terms@greek:scripture|writings|it is written	y	
+tr-nt-62	8	62	terms@greek:sin|sinner	y	
+tr-nt-63	8	63	terms@greek:son of man	y	
+tr-nt-64	8	64	terms@greek:soul	y	
+tr-nt-65	8	65	terms@greek:spirit|spiritual	y	
+tr-nt-66	8	66	terms@greek:synagogue	y	
+tr-nt-67	8	67	terms@greek:temple|house of god|sanctuary	y	
+tr-nt-68	8	68	terms@greek:tent|tabernacle	y	
+tr-nt-69	8	69	terms@greek:unclean|defiled|impure|uncleanness	y	
+tr-nt-70	8	70	terms@greek:world|age	y	
+tr-ot-1	9	1	strong:H7706	y	
+tr-ot-2	9	2	strong:H5945	y	
+tr-ot-3	9	3	strong:H0136	y	
+tr-ot-4	9	4	strong:H3068,H6635	y	
+tr-ot-5	9	5	terms@hebrew:angel|messenger	y	
+tr-ot-6	9	6	terms@hebrew:anoint|anointed one|anointing	y	
+tr-ot-7	9	7	terms@hebrew:atone|forgive|purify|atonement|ransom	y	
+tr-ot-8	9	8	terms@hebrew:burnt offering	y	
+tr-ot-9	9	9	terms@hebrew:cereal|grain offering	y	
+tr-ot-10	9	10	terms@hebrew:command|commandment	y	
+tr-ot-11	9	11	terms@hebrew:compassion|mercy|show compassion	y	
+tr-ot-12	9	12	terms@hebrew:correct|instruct|discipline|train|warn|rebuke	y	
+tr-ot-13	9	13	terms@hebrew:correction|instruction|discipline|training	y	
+tr-ot-14	9	14	terms@hebrew:covenant	y	
+tr-ot-15	9	15	terms@hebrew:curse	y	
+tr-ot-16	9	16	terms@hebrew:curse	y	
+tr-ot-17	9	17	terms@hebrew:devoted thing|thing set apart|devote|set apart	y	
+tr-ot-18	9	18	terms@hebrew:err|error|unintentional sin	y	
+tr-ot-19	9	19	terms@hebrew:favor|grace|kindness	y	
+tr-ot-20	9	20	terms@hebrew:fellowship|communion|peace offerings	y	
+tr-ot-21	9	21	terms@hebrew:friend|companion|confidant|advisor|befriend	y	
+tr-ot-22	9	22	terms@hebrew:glory|honor|praise	y	
+tr-ot-23	9	23	terms@hebrew:guilt offering	y	
+tr-ot-24	9	24	terms@hebrew:hand	y	
+tr-ot-25	9	25	terms@hebrew:hate|enmity	y	
+tr-ot-26	9	26	terms@hebrew:holy|be holy|set apart|sacred|a holy place|sanctuary	y	
+tr-ot-27	9	27	terms@hebrew:instruction|teaching|law|torah	y	
+tr-ot-28	9	28	terms@hebrew:judge|judgment	y	
+tr-ot-29	9	29	terms@hebrew:judge	y	
+tr-ot-30	9	30	terms@hebrew:justice|right order	y	
+tr-ot-31	9	31	terms@hebrew:love	y	
+tr-ot-32	9	32	terms@hebrew:loyalty|favor|kindness|be loyal|committed to someone	y	
+tr-ot-33	9	33	terms@hebrew:name	y	
+tr-ot-34	9	34	terms@hebrew:offering|offer|draw|bring near	y	
+tr-ot-35	9	35	strong:H1167,H1168	y	
+tr-ot-36	9	36	terms@hebrew:possess|possession|take possession of	y	
+tr-ot-37	9	37	terms@hebrew:possess|take possession of	y	
+tr-ot-38	9	38	terms@hebrew:precepts	y	
+tr-ot-39	9	39	terms@hebrew:redeemer|kinsman redeemer	y	
+tr-ot-40	9	40	terms@hebrew:sacrifice|offering|offer	y	
+tr-ot-41	9	41	terms@hebrew:sheol|underworld|land of the dead|grave|die	y	
+tr-ot-42	9	42	terms@hebrew:simpleton|naïve|gullible person	y	
+tr-ot-43	9	43	terms@hebrew:sin|sin offering	y	
+tr-ot-44	9	44	terms@hebrew:slave|servant	y	
+tr-ot-45	9	45	terms@hebrew:statue|portion|boundary	y	
+tr-ot-46	9	46	terms@hebrew:swear|oath	y	
+tr-ot-47	9	47	terms@hebrew:testimony	y	
+tr-ot-48	9	48	terms@hebrew:truth|faithfulness	y	
+tr-ot-49	9	49	terms@hebrew:understanding|understand	y	
+tr-ot-50	9	50	terms@hebrew:vow	y	
+tr-ot-51	9	51	terms@hebrew:way|path|road	y	
+tr-ot-52	9	52	terms@hebrew:wisdom|be wise	y	
+tr-ot-53	9	53	terms@hebrew:zeal|jealousy|be zealous|jealous	y	
+tr-body-head	10	1	terms:head	y	
+tr-body-eye	10	2	terms:eye	y	
+tr-body-nose	10	3	terms:nose	y	
+tr-body-ear	10	4	terms:ear	y	
+tr-body-mouth	10	5	terms:mouth	y	
+tr-body-face	10	6	terms:face	y	
+tr-body-neck	10	7	terms:neck	y	
+tr-body-throat	10	8	terms:throat	y	
+tr-body-arm	10	9	terms:arm	y	
+tr-body-hand	10	10	terms:hand	y	
+tr-body-heart	10	11	terms:heart	y	
+tr-body-cavity-for-inner-organs	10	12	terms:cavity for inner organs	y	
+tr-body-kidneys	10	13	terms:kidneys	y	
+tr-body-intestines	10	14	terms:intestines	y	
+tr-body-womb	10	15	terms:womb	y	
+tr-body-abdomen	10	16	terms:abdomen	y	
+tr-body-waist-loins	10	17	terms:waist|loins	y	
+tr-body-hip-thigh	10	18	terms:hip|thigh	y	
+tr-body-leg	10	19	terms:leg	y	
+tr-body-foot	10	20	terms:foot	y	
+tr-body-blood	10	21	terms:blood	y	
+tr-11-1	11	1		n	
+tr-11-2	11	2		n	
+tr-bridges	12	1	bridges	y	
+tr-bridges-how	12	2		n	
+tr-bridges-often	12	3	bridges	n	
+tr-bridges-paratext	12	4		n	
+tr-bridges-print	12	5		n	
+tr-13-1	13	1		n	
+tr-13-2	13	2		n	
+tr-13-3	13	3		n	
+tr-13-4	13	4		n	
+tr-13-5	13	5		n	
+tr-13-6	13	6		n	
+tr-13-7	13	7		n	
+tr-13-8	13	8		n	
+tr-red-letter	14	1	markers:wj	y	
+tr-red-1	14	2		n	
+tr-red-2	14	3		n	
+tr-red-3	14	4		n	
+tr-red-4	14	5		n	
+tr-red-5	14	6		n	
+tr-red-6	14	7		n	
+tr-red-7	14	8		n	
+tr-15-1	15	1		n	
+tr-16-1	16	1		n	
+tr-16-2	16	2		n	
+tr-16-3	16	3		n	
+tr-16-4	16	4		n	

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props"
+          Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1F8F5EC4-00C8-408F-9468-894EB9348433}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>StyleGuide</RootNamespace>
+    <AssemblyName>StyleGuidePlugin</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <Deterministic>true</Deterministic>
+    <LangVersion>5</LangVersion>
+    <!-- Paratext install folder: the plugin compiles against its PluginInterfaces (2.0.100 on 9.5). -->
+    <ParatextInstallDir Condition=" '$(ParatextInstallDir)' == '' ">C:\Program Files\Paratext 9\</ParatextInstallDir>
+    <!-- Without a .NET 4.8 targeting pack, following PluginInterfaces' netstandard dependencies
+         copies mscorlib.dll and friends into bin. All references come from Paratext or .NET. -->
+    <_FindDependencies>false</_FindDependencies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <!-- PluginInterfaces is built on .NET Standard 2.0. -->
+    <!-- Resolved from the GAC (no HintPath): a HintPath into the Framework folder made MSBuild copy mscorlib.dll locally. -->
+    <Reference Include="netstandard">
+      <Private>False</Private>
+    </Reference>
+    <!-- Provided by Paratext at run time: never copied into the plugin folder. -->
+    <Reference Include="PluginInterfaces">
+      <HintPath>$(ParatextInstallDir)PluginInterfaces.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="CorePluginInterfaces">
+      <HintPath>$(ParatextInstallDir)CorePluginInterfaces.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Answers.cs" />
+    <Compile Include="BookChoice.cs" />
+    <Compile Include="BookChooserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Finding.cs" />
+    <Compile Include="FootnoteScanner.cs" />
+    <Compile Include="FootnoteSurvey.cs" />
+    <Compile Include="HeadingsSurvey.cs" />
+    <Compile Include="HyphenationSurvey.cs" />
+    <Compile Include="ListsSurvey.cs" />
+    <Compile Include="NumbersSurvey.cs" />
+    <Compile Include="PoetrySurvey.cs" />
+    <Compile Include="QuotationsSurvey.cs" />
+    <Compile Include="SyntaxSurvey.cs" />
+    <Compile Include="GeneralSurvey.cs" />
+    <Compile Include="IBookSource.cs" />
+    <Compile Include="Module.cs" />
+    <Compile Include="ModuleDoc.cs" />
+    <Compile Include="ProjectText.cs" />
+    <Compile Include="PunctuationSurvey.cs" />
+    <Compile Include="StyleGuideForm.cs" />
+    <Compile Include="StyleGuidePlugin.cs" />
+    <Compile Include="StyleGuideSession.cs" />
+    <Compile Include="Strings.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <!-- Paratext-free readers shared with the Project Settings Report plugin. -->
+    <Compile Include="..\..\Project_Settings\ProjectSettingsPlugin\SettingsFile.cs">
+      <Link>ProjectSettings\SettingsFile.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Project_Settings\ProjectSettingsPlugin\StyleSheets.cs">
+      <Link>ProjectSettings\StyleSheets.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Project_Settings\ProjectSettingsPlugin\UsfmTextTokens.cs">
+      <Link>ProjectSettings\UsfmTextTokens.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Punctuation.docx">
+      <LogicalName>StyleGuide.Punctuation.docx</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Letters.docx">
+      <LogicalName>StyleGuide.Letters.docx</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\letters.tsv">
+      <LogicalName>StyleGuide.letters.tsv</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Markup.docx">
+      <LogicalName>StyleGuide.Markup.docx</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\markup.tsv">
+      <LogicalName>StyleGuide.markup.tsv</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Translation.docx">
+      <LogicalName>StyleGuide.Translation.docx</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\translation.tsv">
+      <LogicalName>StyleGuide.translation.tsv</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Syntax.docx">
+      <LogicalName>StyleGuide.Syntax.docx</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\syntax.tsv">
+      <LogicalName>StyleGuide.syntax.tsv</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Quotations.docx">
+      <LogicalName>StyleGuide.Quotations.docx</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\quotations.tsv">
+      <LogicalName>StyleGuide.quotations.tsv</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Poetry.docx">
+      <LogicalName>StyleGuide.Poetry.docx</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\poetry.tsv">
+      <LogicalName>StyleGuide.poetry.tsv</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Numbers.docx">
+      <LogicalName>StyleGuide.Numbers.docx</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\numbers.tsv">
+      <LogicalName>StyleGuide.numbers.tsv</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Lists.docx">
+      <LogicalName>StyleGuide.Lists.docx</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\lists.tsv">
+      <LogicalName>StyleGuide.lists.tsv</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Hyphenation.docx">
+      <LogicalName>StyleGuide.Hyphenation.docx</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\hyphenation.tsv">
+      <LogicalName>StyleGuide.hyphenation.tsv</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Headings.docx">
+      <LogicalName>StyleGuide.Headings.docx</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\headings.tsv">
+      <LogicalName>StyleGuide.headings.tsv</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Footnotes.docx">
+      <LogicalName>StyleGuide.Footnotes.docx</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\footnotes.tsv">
+      <LogicalName>StyleGuide.footnotes.tsv</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\punctuation.tsv">
+      <LogicalName>StyleGuide.punctuation.tsv</LogicalName>
+    </EmbeddedResource>
+    <!-- StyleSheets.cs loads its fallback usfm.sty under the Project Settings name. -->
+    <EmbeddedResource Include="..\..\Project_Settings\ProjectSettingsPlugin\Resources\usfm.sty">
+      <LogicalName>ProjectSettings.usfm.sty</LogicalName>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

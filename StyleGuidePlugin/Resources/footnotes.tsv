@@ -1,0 +1,68 @@
+# Footnotes Module (v2.4, Rev 14-Mar-24): one line per "Our Project" row.
+# id	table	row	survey key	prefill (y/n)	references whose project text is shown
+fn-avoid	0	1		n
+fn-length	0	2	fn-length	y
+fn-count	0	3	fn-count	y
+fn-model	1	1	fn-count	n
+type-none	2	1	fn-none	y
+type-doubtful	2	2	fn-doubtful	y	MAT 17:21; MRK 9:44; LUK 17:36; JHN 5:4; ACT 8:37
+type-otquote	2	3	fn-xref	y	MAT 2:6
+type-measures	2	4	fn-measures	y
+type-variants	2	5	fn-variants	y	LUK 9:55; LUK 9:56
+type-versification	2	6	fn-versification	y	REV 12:18
+type-alternate	2	7	fn-alternate	y
+type-literal	2	8	fn-literal	y	GEN 43:14
+type-uncertain	2	9	fn-uncertain	y
+type-names	2	10	fn-names	y	GEN 46:15
+type-commentary	2	11	fn-commentary	y	REV 8:11
+type-wordplay	2	12	fn-wordplay	y	1SA 1:20; GEN 11:9
+type-acrostic	2	13	fn-acrostic	y	PSA 25:1
+type-semantic	2	14	fn-semantic	y
+type-other	2	15	fn-noteref	y	EXO 6:3
+fn-cat	3	1	fn-cat	y
+repeat-book	4	1	fn-repeat	y
+repeat-chapter	4	2	fn-repeat	n	PSA 3:2
+repeat-every	4	3	fn-repeat	n
+wording-xref	5	1	fn-wording-xref	y	EXO 13:19
+wording-alternate	5	2	fn-wording-alternate	y	GEN 3:15
+wording-names	5	3	fn-wording-names	y	GEN 14:1
+wording-wordplay	5	4	fn-wording-wordplay	y
+wording-doubtful	5	5	fn-wording-doubtful	y	MAT 17:21
+wording-sources	5	6	fn-sources	y	2SA 12:16
+wording-other	5	7		n
+usfm-f	6	1	fn-markers	n
+usfm-fr	6	2	fn-markers	n
+usfm-ft	6	3	fn-markers	n
+usfm-fq	6	4	fn-fq	y	1SA 2:1
+usfm-fq-forms	6	5	fn-fq-match	y
+usfm-fq-ellipsis	6	6	fn-fq-ellipsis	y
+usfm-fq-punct	6	7	fn-fq-punct	y
+usfm-fqa	6	8	fn-fqa	y
+usfm-rare	6	9	fn-markers	n
+anchor	7	1	fn-anchor	y	EXO 9:16
+anchor-2	7	2	fn-anchor	n	GEN 1:30
+anchor-exceptions	7	3	fn-anchor	n	GEN 47:7
+anchor-other	7	4	fn-anchor	n	GEN 36:24
+xref-books	8	1	fn-books	y
+xref-usfm	8	2	fn-xt	y
+other-words	9	1	fn-words	y
+abbreviations	9	2	fn-abbrev	y
+numbers	10	1	fn-numbers	y	EXO 25:23
+capitalization	11	1	fn-caps	y	1SA 2:1
+ending-punctuation	11	2	fn-end	y	GEN 3:20
+other-punctuation	11	3	fn-lead-word	y
+callers	12	0	fn-callers	y
+place-word	13	1	fn-place-word	y	JHN 11:19
+place-general	14	1	fn-place	y
+place-simple	14	2	fn-place-simple	y	MRK 7:31; GEN 3:20
+place-tall	14	3	fn-place-tall	y	ISA 52:14; ISA 62:4; MIC 4:9
+place-sentence	14	4	fn-place-simple	n	1CO 14:35
+place-paren	14	5	fn-place-paren	y	EXO 15:23; 1SA 14:18
+place-otquote	14	6	fn-place-quote	y	1CO 14:21
+place-quote	14	7	fn-place-quote	n	GEN 4:8; GEN 5:2
+place-quote-in-quote	14	8	fn-place-quote	n	PSA 87:4
+place-chapter	14	9	fn-place-chapter	y	PSA 25:1
+other-comments	15	1		n
+other-1	15	2		n
+other-2	15	3		n
+other-3	15	4		n

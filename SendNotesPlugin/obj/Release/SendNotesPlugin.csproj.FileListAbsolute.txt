@@ -1,0 +1,5 @@
+C:\ClaudeCode Projects\Send_Notes\SendNotesPlugin\bin\Release\SendNotesPlugin.dll
+C:\ClaudeCode Projects\Send_Notes\SendNotesPlugin\bin\Release\SendNotesPlugin.pdb
+C:\ClaudeCode Projects\Send_Notes\SendNotesPlugin\obj\Release\SendNotesPlugin.csprojResolveAssemblyReference.cache
+C:\ClaudeCode Projects\Send_Notes\SendNotesPlugin\obj\Release\SendNotesPlugin.dll
+C:\ClaudeCode Projects\Send_Notes\SendNotesPlugin\obj\Release\SendNotesPlugin.pdb

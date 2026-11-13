@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props"
+          Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <!-- Test host only: never deployed. Builds the plugin's Paratext-free sources into an exe. -->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+<<<<<<< HEAD
+    <OutputType>Exe</OutputType>
+    <RootNamespace>StyleGuideTests</RootNamespace>
+    <AssemblyName>StyleGuideTestHost</AssemblyName>
+=======
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SendNotesTests</RootNamespace>
+    <AssemblyName>SendNotesTestHost</AssemblyName>
+>>>>>>> 057390ea1c9eaaf472f51f6516e34b020467b583
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <LangVersion>5</LangVersion>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+<<<<<<< HEAD
+    <Reference Include="System.IO.Compression" />
+=======
+>>>>>>> 057390ea1c9eaaf472f51f6516e34b020467b583
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+<<<<<<< HEAD
+    <Compile Include="..\..\StyleGuidePlugin\Answers.cs"><Link>Answers.cs</Link></Compile>
+    <Compile Include="..\..\StyleGuidePlugin\BookChoice.cs"><Link>BookChoice.cs</Link></Compile>
+    <Compile Include="..\..\StyleGuidePlugin\BookChooserForm.cs"><Link>BookChooserForm.cs</Link></Compile>
+    <Compile Include="..\..\StyleGuidePlugin\Finding.cs"><Link>Finding.cs</Link></Compile>
+    <Compile Include="..\..\StyleGuidePlugin\FootnoteScanner.cs"><Link>FootnoteScanner.cs</Link></Compile>
+    <Compile Include="..\..\StyleGuidePlugin\FootnoteSurvey.cs"><Link>FootnoteSurvey.cs</Link></Compile>
+    <Compile Include="..\..\StyleGuidePlugin\HeadingsSurvey.cs"><Link>HeadingsSurvey.cs</Link></Compile>
+    <Compile Include="..\..\StyleGuidePlugin\HyphenationSurvey.cs"><Link>HyphenationSurvey.cs</Link></Compile>
+    <Compile Include="..\..\StyleGuidePlugin\ListsSurvey.cs"><Link>ListsSurvey.cs</Link></Compile>
+    <Compile Include="..\..\StyleGuidePlugin\NumbersSurvey.cs"><Link>NumbersSurvey.cs</Link></Compile>
+    <Compile Include="..\..\StyleGuidePlugin\PoetrySurvey.cs"><Link>PoetrySurvey.cs</Link></Compile>
+    <Compile Include="..\..\StyleGuidePlugin\QuotationsSurvey.cs"><Link>QuotationsSurvey.cs</Link></Compile>
+    <Compile Include="..\..\StyleGuidePlugin\SyntaxSurvey.cs"><Link>SyntaxSurvey.cs</Link></Compile>
+    <Compile Include="..\..\StyleGuidePlugin\GeneralSurvey.cs"><Link>GeneralSurvey.cs</Link></Compile>
+    <Compile Include="..\..\StyleGuidePlugin\IBookSource.cs"><Link>IBookSource.cs</Link></Compile>
+    <Compile Include="..\..\StyleGuidePlugin\Module.cs"><Link>Module.cs</Link></Compile>
+    <Compile Include="..\..\StyleGuidePlugin\ModuleDoc.cs"><Link>ModuleDoc.cs</Link></Compile>
+    <Compile Include="..\..\StyleGuidePlugin\ProjectText.cs"><Link>ProjectText.cs</Link></Compile>
+    <Compile Include="..\..\StyleGuidePlugin\PunctuationSurvey.cs"><Link>PunctuationSurvey.cs</Link></Compile>
+    <Compile Include="..\..\StyleGuidePlugin\StyleGuideForm.cs"><Link>StyleGuideForm.cs</Link></Compile>
+    <Compile Include="..\..\StyleGuidePlugin\StyleGuideSession.cs"><Link>StyleGuideSession.cs</Link></Compile>
+    <Compile Include="..\..\StyleGuidePlugin\Strings.cs"><Link>Strings.cs</Link></Compile>
+    <Compile Include="..\..\..\Project_Settings\ProjectSettingsPlugin\SettingsFile.cs"><Link>ProjectSettings\SettingsFile.cs</Link></Compile>
+    <Compile Include="..\..\..\Project_Settings\ProjectSettingsPlugin\StyleSheets.cs"><Link>ProjectSettings\StyleSheets.cs</Link></Compile>
+    <Compile Include="..\..\..\Project_Settings\ProjectSettingsPlugin\UsfmTextTokens.cs"><Link>ProjectSettings\UsfmTextTokens.cs</Link></Compile>
+    <Compile Include="FolderBookSource.cs" />
+    <Compile Include="Program.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="..\..\StyleGuidePlugin\Resources\Punctuation.docx">
+      <LogicalName>StyleGuide.Punctuation.docx</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\StyleGuidePlugin\Resources\Letters.docx">
+      <LogicalName>StyleGuide.Letters.docx</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\StyleGuidePlugin\Resources\letters.tsv">
+      <LogicalName>StyleGuide.letters.tsv</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\StyleGuidePlugin\Resources\Markup.docx">
+      <LogicalName>StyleGuide.Markup.docx</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\StyleGuidePlugin\Resources\markup.tsv">
+      <LogicalName>StyleGuide.markup.tsv</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\StyleGuidePlugin\Resources\Translation.docx">
+      <LogicalName>StyleGuide.Translation.docx</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\StyleGuidePlugin\Resources\translation.tsv">
+      <LogicalName>StyleGuide.translation.tsv</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\StyleGuidePlugin\Resources\Syntax.docx">
+      <LogicalName>StyleGuide.Syntax.docx</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\StyleGuidePlugin\Resources\syntax.tsv">
+      <LogicalName>StyleGuide.syntax.tsv</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\StyleGuidePlugin\Resources\Quotations.docx">
+      <LogicalName>StyleGuide.Quotations.docx</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\StyleGuidePlugin\Resources\quotations.tsv">
+      <LogicalName>StyleGuide.quotations.tsv</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\StyleGuidePlugin\Resources\Poetry.docx">
+      <LogicalName>StyleGuide.Poetry.docx</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\StyleGuidePlugin\Resources\poetry.tsv">
+      <LogicalName>StyleGuide.poetry.tsv</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\StyleGuidePlugin\Resources\Numbers.docx">
+      <LogicalName>StyleGuide.Numbers.docx</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\StyleGuidePlugin\Resources\numbers.tsv">
+      <LogicalName>StyleGuide.numbers.tsv</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\StyleGuidePlugin\Resources\Lists.docx">
+      <LogicalName>StyleGuide.Lists.docx</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\StyleGuidePlugin\Resources\lists.tsv">
+      <LogicalName>StyleGuide.lists.tsv</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\StyleGuidePlugin\Resources\Hyphenation.docx">
+      <LogicalName>StyleGuide.Hyphenation.docx</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\StyleGuidePlugin\Resources\hyphenation.tsv">
+      <LogicalName>StyleGuide.hyphenation.tsv</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\StyleGuidePlugin\Resources\Headings.docx">
+      <LogicalName>StyleGuide.Headings.docx</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\StyleGuidePlugin\Resources\headings.tsv">
+      <LogicalName>StyleGuide.headings.tsv</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\StyleGuidePlugin\Resources\Footnotes.docx">
+      <LogicalName>StyleGuide.Footnotes.docx</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\StyleGuidePlugin\Resources\footnotes.tsv">
+      <LogicalName>StyleGuide.footnotes.tsv</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\StyleGuidePlugin\Resources\punctuation.tsv">
+      <LogicalName>StyleGuide.punctuation.tsv</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\..\Project_Settings\ProjectSettingsPlugin\Resources\usfm.sty">
+      <LogicalName>ProjectSettings.usfm.sty</LogicalName>
+    </EmbeddedResource>
+  </ItemGroup>
+=======
+    <Compile Include="..\..\SendNotesPlugin\Model.cs">
+      <Link>Model.cs</Link>
+    </Compile>
+    <Compile Include="..\..\SendNotesPlugin\SendNotesForm.cs">
+      <Link>SendNotesForm.cs</Link>
+    </Compile>
+    <Compile Include="..\..\SendNotesPlugin\SendRunner.cs">
+      <Link>SendRunner.cs</Link>
+    </Compile>
+    <Compile Include="..\..\SendNotesPlugin\Settings.cs">
+      <Link>Settings.cs</Link>
+    </Compile>
+    <Compile Include="..\..\SendNotesPlugin\Strings.cs">
+      <Link>Strings.cs</Link>
+    </Compile>
+    <Compile Include="FolderNotes.cs" />
+    <Compile Include="Program.cs" />
+  </ItemGroup>
+>>>>>>> 057390ea1c9eaaf472f51f6516e34b020467b583
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

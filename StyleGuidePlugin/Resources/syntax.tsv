@@ -1,0 +1,33 @@
+# Syntax, Grammar and Spelling Module (v1.2, Rev 24-Aug-23): one line per "Our Project" row.
+# id	table	row	survey key	prefill (y/n)	references whose project text is shown
+sy-sources	0	1		n
+sy-alphabet	1	1	sy-alphabet	y
+sy-medial	1	2	sy-medial	y
+sy-uk-us	1	3	sy-uk-us	y
+sy-spelling	1	4		n
+sy-separator	2	1	sy-separator	y
+sy-similar	2	2	sy-similar	y
+sy-joined	2	3	sy-joined	y
+sy-case	3	1	sy-case	y
+sy-first-person	3	2	sy-first-person	y	MAT 8:9; MAT 9:21
+sy-caps	3	3	sy-caps	y
+sy-groups	3	4	sy-groups	y
+sy-apostrophe	4	1	sy-apostrophe	y
+sy-contractions	4	2	sy-contractions	y
+sy-possessive	4	3	sy-possessive	y
+sy-word-order	5	1		n	JOS 3:15
+sy-passive	5	2		n
+sy-pronoun	5	3		n	PSA 5:7; ISA 51:12; JHN 6:35
+sy-articles	6	1		n	LUK 4:5; JHN 4:24
+sy-conj-original	7	1		n
+sy-conjunctions	7	2		n
+sy-cases	7	3		n
+sy-tenses	7	4		n
+sy-affixes	7	5		n
+sy-questions	8	1	sy-questions	y
+sy-real-questions	8	2		n	MAT 13:10; MRK 6:38; MRK 8:29
+sy-rhetorical	8	3	sy-rhetorical	y	LUK 20:5; MAT 6:25; MAT 16:26
+other-1	9	1		n
+other-2	9	2		n
+other-3	9	3		n
+other-4	9	4		n

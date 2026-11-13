@@ -1,0 +1,5 @@
+C:\ClaudeCode Projects\Style_Guide\StyleGuidePlugin\bin\Release\StyleGuidePlugin.dll
+C:\ClaudeCode Projects\Style_Guide\StyleGuidePlugin\bin\Release\StyleGuidePlugin.pdb
+C:\ClaudeCode Projects\Style_Guide\StyleGuidePlugin\obj\Release\StyleGuidePlugin.csprojResolveAssemblyReference.cache
+C:\ClaudeCode Projects\Style_Guide\StyleGuidePlugin\obj\Release\StyleGuidePlugin.dll
+C:\ClaudeCode Projects\Style_Guide\StyleGuidePlugin\obj\Release\StyleGuidePlugin.pdb

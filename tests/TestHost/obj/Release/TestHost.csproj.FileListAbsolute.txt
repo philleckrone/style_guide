@@ -1,0 +1,27 @@
+<<<<<<< HEAD
+C:\ClaudeCode Projects\Style_Guide\tests\TestHost\bin\Release\StyleGuideTestHost.exe
+C:\ClaudeCode Projects\Style_Guide\tests\TestHost\bin\Release\StyleGuideTestHost.pdb
+C:\ClaudeCode Projects\Style_Guide\tests\TestHost\bin\Release\mscorlib.dll
+C:\ClaudeCode Projects\Style_Guide\tests\TestHost\bin\Release\es\mscorlib.resources.dll
+C:\ClaudeCode Projects\Style_Guide\tests\TestHost\bin\Release\normidna.nlp
+C:\ClaudeCode Projects\Style_Guide\tests\TestHost\bin\Release\normnfc.nlp
+C:\ClaudeCode Projects\Style_Guide\tests\TestHost\bin\Release\normnfd.nlp
+C:\ClaudeCode Projects\Style_Guide\tests\TestHost\bin\Release\normnfkc.nlp
+C:\ClaudeCode Projects\Style_Guide\tests\TestHost\bin\Release\normnfkd.nlp
+C:\ClaudeCode Projects\Style_Guide\tests\TestHost\obj\Release\TestHost.csprojResolveAssemblyReference.cache
+C:\ClaudeCode Projects\Style_Guide\tests\TestHost\obj\Release\StyleGuideTestHost.exe
+C:\ClaudeCode Projects\Style_Guide\tests\TestHost\obj\Release\StyleGuideTestHost.pdb
+=======
+C:\ClaudeCode Projects\Send_Notes\tests\TestHost\bin\Release\SendNotesTestHost.exe
+C:\ClaudeCode Projects\Send_Notes\tests\TestHost\bin\Release\SendNotesTestHost.pdb
+C:\ClaudeCode Projects\Send_Notes\tests\TestHost\bin\Release\mscorlib.dll
+C:\ClaudeCode Projects\Send_Notes\tests\TestHost\bin\Release\es\mscorlib.resources.dll
+C:\ClaudeCode Projects\Send_Notes\tests\TestHost\bin\Release\normidna.nlp
+C:\ClaudeCode Projects\Send_Notes\tests\TestHost\bin\Release\normnfc.nlp
+C:\ClaudeCode Projects\Send_Notes\tests\TestHost\bin\Release\normnfd.nlp
+C:\ClaudeCode Projects\Send_Notes\tests\TestHost\bin\Release\normnfkc.nlp
+C:\ClaudeCode Projects\Send_Notes\tests\TestHost\bin\Release\normnfkd.nlp
+C:\ClaudeCode Projects\Send_Notes\tests\TestHost\obj\Release\TestHost.csprojResolveAssemblyReference.cache
+C:\ClaudeCode Projects\Send_Notes\tests\TestHost\obj\Release\SendNotesTestHost.exe
+C:\ClaudeCode Projects\Send_Notes\tests\TestHost\obj\Release\SendNotesTestHost.pdb
+>>>>>>> 057390ea1c9eaaf472f51f6516e34b020467b583

@@ -1,0 +1,79 @@
+{
+  "cues": "{1} before a phrase shows box 1 of the step from there on, {0,2} boxes 0 and 2, {} none; the pointer goes on the first box named. Cues are not spoken or shown. 'q' is the step's question in the YouTube timecodes (youtubetext.txt).",
+  "youtube": {
+    "en": {
+      "about": "Send Notes to Project is a Paratext tool for consultants. A consultant often writes notes in a consultant notes project. With this tool you tick the notes you want the team to see, choose which comment of each note to send, and send them as new notes to the team's project, at the same verses. The note you sent from gets \"Sent to ...\", so you can see what you already sent. It works one chapter, or one verse, at a time. Start it from the project that will receive the notes, not from the consultant notes project.",
+      "download": "Download Install_Phils_tools.exe from the Paratext Plugins folder, and tick Send Notes to Project in it:",
+      "link": "https://short.do/HgUb7T",
+      "credits": [
+        "Created with Claude AI.",
+        "Narration: AI-generated voice (Microsoft Azure AI Speech, voice \"Jenny\").",
+        "Music from Free To Use",
+        "Source: https://freetouse.com/music",
+        "Coconut Kind of Love by Aetheric"
+      ]
+    }
+  },
+  "steps": [
+    {
+      "id": "title",
+      "en": { "title": "Send Notes to Project", "sub": "A Paratext tool: send a consultant's notes to the team's project", "text": "Send Notes to Project is a Paratext tool for consultants. It sends the notes you choose from a consultant notes project to the team's project." }
+    },
+    {
+      "id": "s00_menu",
+      "en": { "title": "Open it from the Tools menu", "q": "How do I open Send Notes to Project?", "text": "In Paratext, open the project that will receive the notes. Then choose {0}Tools, then {1}Send Notes to Project. It can't be started from the consultant notes project itself." }
+    },
+    {
+      "id": "s01_open",
+      "en": { "title": "From your notes to the team's project", "q": "What does the tool do?", "text": "{0}From is the consultant notes project you wrote the notes in; choose it here. {1}Send to is the project that gets them. {2}Each comment you send becomes a new note at the same verse there, and \"Sent to\" is added to your note here." }
+    },
+    {
+      "id": "s02_target",
+      "en": { "title": "Choose the receiving project", "q": "How do I choose where the notes go?", "text": "{0}Choose the project that gets the notes. The tool lists the projects where you may add notes, and remembers your choice for next time." }
+    },
+    {
+      "id": "s03_hidden",
+      "en": { "title": "Notes already sent are hidden", "q": "Can I see which notes I already sent?", "text": "{0}Hide notes already sent to this project is ticked, {1}so a note you sent before is not listed again. Untick it to see those notes too." }
+    },
+    {
+      "id": "s04_place",
+      "en": { "title": "One chapter at a time", "q": "How do I move through the book?", "text": "{0}The list shows the notes of one chapter. {1}Previous and Next move to the chapter before or after. {2}With Follow Paratext ticked, the list moves with your Paratext window." }
+    },
+    {
+      "id": "s05_tick",
+      "en": { "title": "Tick the notes to send", "q": "How do I choose the notes?", "text": "{0}Tick the notes you want to send, here two of them. {1}The Send button counts the ticked notes." }
+    },
+    {
+      "id": "s06_comment",
+      "en": { "title": "Choose the comment to send", "q": "Which comment of a note is sent?", "text": "{0}A note can have several comments. Click the one to send. The last one is chosen at first; here we choose the first. {1}This box shows exactly what will be sent, {2}and the list shows it too." }
+    },
+    {
+      "id": "s07_confirm",
+      "en": { "title": "Send", "q": "How do I send the notes?", "text": "{0}Click Send ticked notes. The tool asks first. {1}Click Yes." }
+    },
+    {
+      "id": "s08_result",
+      "en": { "title": "Sent", "q": "What happens after sending?", "text": "{0}Results lists the notes sent. They are now new notes in the team's project, with their bold and italics. {1}In your notes, \"Sent to\" was added, so the two notes are now hidden. {2}The counts follow." }
+    },
+    {
+      "id": "s09_verse",
+      "en": { "title": "Only one verse", "q": "Can I work one verse at a time?", "text": "{0}Tick Only verse and choose the verse, to see only the notes of that verse. {1}A note on several verses is listed at each of them. {2}Previous and Next then move by verse." }
+    },
+    {
+      "id": "s10_goto",
+      "en": { "title": "Go to the verse", "q": "How do I see the verse in Paratext?", "text": "{0}Go to in Paratext shows the note's verse in the receiving project, so you can read the text the note is about." }
+    },
+    {
+      "id": "sec_install",
+      "en": { "title": "Installing the tool", "q": "How do I install the tool?", "text": "Installing the tool." }
+    },
+    {
+      "id": "i5_ready",
+      "en": { "title": "Ready to use", "text": "Start Paratext again. {1,0}Send Notes to Project is now on the Tools menu." }
+    },
+    {
+      "id": "end",
+      "en": { "title": "Send Notes to Project", "sub": "Tick the notes  ·  Choose the comment  ·  Sent to the team's project", "text": "Send Notes to Project sends the notes you choose, with the comment you choose, to the team's project, and marks them as sent." }
+    }
+  ]
+}
