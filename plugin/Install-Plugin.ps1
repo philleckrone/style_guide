@@ -1,16 +1,9 @@
 <#
 .SYNOPSIS
-<<<<<<< HEAD
   Installs, removes or checks the Style Guide plugin for Paratext 9.
 
 .DESCRIPTION
   Copies the StyleGuide folder next to this script (the plugin StyleGuidePlugin.ptxplg) into <Paratext folder>\plugins\StyleGuide\ of EVERY Paratext 9
-=======
-  Installs, removes or checks the Send Notes to Project plugin for Paratext 9.
-
-.DESCRIPTION
-  Copies the SendNotes folder next to this script (the plugin SendNotesPlugin.ptxplg) into <Paratext folder>\plugins\SendNotes\ of EVERY Paratext 9
->>>>>>> 057390ea1c9eaaf472f51f6516e34b020467b583
   installation on this computer (for example "Paratext 9" and "Paratext 9 Beta").
 
   Why the extra steps: Paratext loads plugins with .NET's Assembly.LoadFrom and silently
@@ -47,29 +40,17 @@
   For testing with -ParatextDir: do not ask for administrator rights.
 
 .EXAMPLE
-<<<<<<< HEAD
   & "C:\ClaudeCode Projects\Style_Guide\plugin\Install-Plugin.ps1"
 .EXAMPLE
   & "C:\ClaudeCode Projects\Style_Guide\plugin\Install-Plugin.ps1" -Check
-=======
-  & "C:\ClaudeCode Projects\Send_Notes\plugin\Install-Plugin.ps1"
-.EXAMPLE
-  & "C:\ClaudeCode Projects\Send_Notes\plugin\Install-Plugin.ps1" -Check
->>>>>>> 057390ea1c9eaaf472f51f6516e34b020467b583
 #>
 param([switch]$Uninstall, [switch]$Check, [switch]$Elevated, [switch]$Pause,
       [string]$ParatextDir, [switch]$NoElevate)
 
 $ErrorActionPreference = 'Stop'
-<<<<<<< HEAD
 $toolName   = 'Style Guide'
 $folderName = 'StyleGuide'
 $pluginFile = 'StyleGuidePlugin.ptxplg'
-=======
-$toolName   = 'Send Notes to Project'
-$folderName = 'SendNotes'
-$pluginFile = 'SendNotesPlugin.ptxplg'
->>>>>>> 057390ea1c9eaaf472f51f6516e34b020467b583
 $exeFile    = ''   # empty for a plugin without a program
 $packageFiles = @($pluginFile)
 if ($exeFile) { $packageFiles += $exeFile }
@@ -85,11 +66,7 @@ $sourceDir  = Join-Path $PSScriptRoot $folderName
 # delete them, so the folder is not left behind with no plugin in it.
 $oldFiles = @()
 # SHA-256 of each package file, written by make_installers.py.
-<<<<<<< HEAD
 $expectedHashes = @{ 'StyleGuidePlugin.ptxplg' = 'dead28bc4c4eab0ff469c82cf779bb19190d1826d1463bc2341ed0af3a40b3b8' }
-=======
-$expectedHashes = @{ 'SendNotesPlugin.ptxplg' = '7574bff81e9d98114a58fce114c023b4f9111057e96eea68b140b375329a41f4' }
->>>>>>> 057390ea1c9eaaf472f51f6516e34b020467b583
 # Windows PowerShell by its real path, never through PATH or the current folder.
 $powershellExe = Join-Path ([Environment]::SystemDirectory) 'WindowsPowerShell\v1.0\powershell.exe'
 

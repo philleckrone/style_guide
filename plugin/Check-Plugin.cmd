@@ -1,9 +1,5 @@
 @echo off
-<<<<<<< HEAD
 rem Double-click to check (without changing anything) the Style Guide plugin for Paratext 9.
-=======
-rem Double-click to check (without changing anything) the Send Notes to Project plugin for Paratext 9.
->>>>>>> 057390ea1c9eaaf472f51f6516e34b020467b583
 rem Lists the Paratext installations and whether each can load the plugin.
 rem No administrator permission needed.
 rem The quotes keep folder names with spaces working; -ExecutionPolicy Bypass lets the
