@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-<<<<<<< HEAD
 # Text of the Style Guide user guide, written by make_rtf.py.
 # Lines starting with '# ' are headings; lines starting with '> ' are indented;
 # '!img FILE' embeds a PNG from the tools folder.
@@ -22,21 +21,10 @@ u'> Letters, Proclamations (draft)',
 u'> Markup and Layout (draft)',
 u'> Translation Considerations (draft)',
 u'The last three are drafts from Biblica; their questions may change in later versions of the documents. Some questions, such as those about grammar, the audience or the type of translation, cannot be answered from the text: the plugin says so, and the team answers them.',
-=======
-# Text of the Send Notes to Project user guides, written by make_rtf.py.
-# Lines starting with '# ' are headings; lines starting with '> ' are indented.
-
-EN = [
-u'# PURPOSE',
-u'Send Notes to Project is a Paratext plugin for consultants. Consultants often write their notes in a consultant notes project (for example PLe11). When a note is ready, this tool sends the comment you choose to the project itself (for example PDT15), as a new note at the same verse, without typing it again.',
-u'Each note can be a string of several comments. You choose which comment to send; the last one is chosen at first.',
-u'The tool reads one chapter at a time.',
->>>>>>> 057390ea1c9eaaf472f51f6516e34b020467b583
 u'# INSTALLING',
 u'1. Download Install_Phils_tools.exe from the Paratext_Plugins folder. If your browser warns about the file, choose to keep it.',
 u'2. Close Paratext.',
 u'3. Double-click Install_Phils_tools.exe. If Windows says it protected your PC, click "More info", then "Run anyway" (the installer is not signed yet).',
-<<<<<<< HEAD
 u'4. Tick Style Guide and click "Install / update ticked". It installs into every Paratext 9 on the computer. If Windows asks for permission, click Yes. The same window updates the plugin later (its status then says "Update available") or removes it ("Remove ticked"), and its "User guide" button opens this guide.',
 u'# OPENING THE WINDOW',
 u'Open the project in a Scripture window and choose Tools > Style Guide... The window opens and starts surveying the first module, Punctuation. While the survey runs, the line to the right of Rescan is orange and bold. Each module is surveyed the first time you choose it, which takes a few seconds (up to about 15 seconds for a large project).',
@@ -76,88 +64,4 @@ u'> Quotations: the quotation marks of each level, continuers in later paragraph
 u'> Syntax: letters and diacritics, words written in two ways, capitalization, apostrophes and questions.',
 u'> The draft modules: renderings of names and key terms from the project\'s Biblical Terms, and counts of markers and verse bridges.',
 u'For Spanish, French and Portuguese projects (by the language code in the project settings), the survey also recognizes number words, conjunctions and the wording of footnotes. For other languages it relies on the marks and markers.',
-=======
-u'4. Tick Send Notes to Project and click "Install / update ticked". It installs into every Paratext 9 on the computer. If Windows asks for permission, click Yes. The same window updates the plugin later (its status then says "Update available") or removes it ("Remove ticked"), and its "User guide" button opens this guide.',
-u'# HOW TO USE',
-u'1. Open the project that will receive the notes (for example PDT15) and choose Tools > Send Notes to Project... The tool cannot be started from the consultant notes project itself. The window opens at the book and chapter you are looking at.',
-u'2. In "From", choose the consultant notes project the notes come from. The list offers every consultant notes project on the computer.',
-u'3. In "Send to", choose the project that should receive the notes. Only projects you may add notes to are listed (you are not an observer there). Your choice is remembered for that consultant notes project and stays the default until you choose another project.',
-u'4. Choose the book and chapter, or use "< Previous" and "Next >". With "Follow Paratext" ticked, the window moves to the chapter you go to in Paratext.',
-u'To see the notes of a single verse instead of the whole chapter, tick "Only verse" and choose the verse. "< Previous" and "Next >" then move one verse at a time, and "Follow Paratext" follows the verse. A note on a range of verses (for example ACT 1:4-6) is listed at each of its verses. The tool remembers this choice.',
-u'5. The list shows the notes of that chapter: the reference, the comment that will be sent, the number of comments, and where the note was already sent.',
-u'6. Click a note to see all its comments below the list. Click the comment you want to send; "Will be sent" shows exactly what the new note will say. A "Sent to ..." comment cannot be sent.',
-u'7. Tick the notes to send ("Tick all" ticks every note that has text), then click "Send ticked notes" and answer Yes.',
-u'"Go to in Paratext" (or a double-click on a note) shows the verse in the receiving project.',
-u'The window can stay open while you work in Paratext. To see notes added or changed since, choose Tools > Send Notes to Project... again: the list is read again, the notes you ticked stay ticked, and with "Follow Paratext" ticked the window moves to the chapter you are in.',
-u'# WHAT HAPPENS WHEN YOU SEND',
-u'> Each comment sent becomes a new note in the receiving project, at the same verse (mapped to that project\'s versification), under your name. A note on a range of verses (for example ACT 1:13-14) keeps the same range. Bold and italic are kept.',
-u'> When the note in the consultant notes project is attached to some words and the receiving project has those words in that verse, the new note is attached to the same words. Otherwise it is attached to the verse.',
-u'> "Sent to PDT15 on 2026-11-03." is added as a new comment to the note in the consultant notes project. The note stays open.',
-u'> With "Hide notes already sent to this project" ticked, notes already sent to the chosen project are hidden. If you send a note again, the tool asks first.',
-u'> If you cannot add notes to the receiving project (for example because you are an observer there), nothing is sent and the Results box says so.',
-u'> Resolved notes are not shown unless "Include resolved notes" is ticked.',
-u'The notes go through Paratext itself, so they are shared by Send/Receive like any other note.',
-]
-
-ES = [
-u'# PROPÓSITO',
-u'Enviar notas a un proyecto es un complemento de Paratext para consultores. Los consultores suelen escribir sus notas en un proyecto de notas de consultor (por ejemplo PLe11). Cuando una nota está lista, esta herramienta envía el comentario que usted elija al proyecto mismo (por ejemplo PDT15), como una nota nueva en el mismo versículo, sin tener que escribirlo de nuevo.',
-u'Cada nota puede ser una cadena de varios comentarios. Usted elige qué comentario enviar; al principio se elige el último.',
-u'La herramienta lee un capítulo a la vez.',
-u'# INSTALACIÓN',
-u'1. Descargue Install_Phils_tools.exe de la carpeta Paratext_Plugins. Si el navegador le advierte sobre el archivo, elija conservarlo.',
-u'2. Cierre Paratext.',
-u'3. Haga doble clic en Install_Phils_tools.exe. Si Windows dice que protegi\u00f3 su PC, haga clic en "M\u00e1s informaci\u00f3n" y luego en "Ejecutar de todas formas" (el instalador todav\u00eda no est\u00e1 firmado).',
-u'4. Marque Enviar notas a un proyecto y haga clic en "Instalar / actualizar los marcados". Se instala en cada Paratext 9 del equipo. Si Windows le pide permiso, haga clic en S\u00ed. La misma ventana actualiza el complemento m\u00e1s adelante (su estado dice entonces "Actualizaci\u00f3n disponible") o lo quita ("Quitar los marcados"), y su bot\u00f3n "Gu\u00eda del usuario" abre esta gu\u00eda.',
-u'# CÓMO USARLO',
-u'1. Abra el proyecto que va a recibir las notas (por ejemplo PDT15) y elija Herramientas > Enviar notas a un proyecto... La herramienta no se puede abrir desde el proyecto de notas de consultor. La ventana se abre en el libro y capítulo que usted está viendo.',
-u'2. En "De", elija el proyecto de notas de consultor de donde vienen las notas. La lista ofrece todos los proyectos de notas de consultor de la computadora.',
-u'3. En "Enviar a", elija el proyecto que debe recibir las notas. Solo aparecen los proyectos a los que usted puede agregar notas (no es observador allí). Su elección se recuerda para ese proyecto de notas de consultor y queda como predeterminada hasta que elija otro proyecto.',
-u'4. Elija el libro y el capítulo, o use "< Anterior" y "Siguiente >". Con "Seguir a Paratext" marcado, la ventana pasa al capítulo al que usted va en Paratext.',
-u'Para ver las notas de un solo versículo en vez del capítulo entero, marque "Solo el versículo" y elija el versículo. Entonces "< Anterior" y "Siguiente >" avanzan de un versículo en uno, y "Seguir a Paratext" sigue el versículo. Una nota sobre un rango de versículos (por ejemplo ACT 1:4-6) aparece en cada uno de sus versículos. La herramienta recuerda esta elección.',
-u'5. La lista muestra las notas de ese capítulo: la referencia, el comentario que se enviará, el número de comentarios y adónde ya se envió la nota.',
-u'6. Haga clic en una nota para ver todos sus comentarios debajo de la lista. Haga clic en el comentario que quiere enviar; "Se enviará" muestra exactamente lo que dirá la nota nueva. Un comentario "Enviada a ..." no se puede enviar.',
-u'7. Marque las notas que quiere enviar ("Marcar todas" marca cada nota que tiene texto), luego haga clic en "Enviar las notas marcadas" y responda Sí.',
-u'"Ir al versículo en Paratext" (o un doble clic en una nota) muestra el versículo en el proyecto que recibe las notas.',
-u'La ventana puede quedar abierta mientras usted trabaja en Paratext. Para ver las notas agregadas o cambiadas desde entonces, elija de nuevo Herramientas > Enviar notas a un proyecto...: la lista se lee otra vez, las notas que usted marcó siguen marcadas y, con "Seguir a Paratext" marcado, la ventana pasa al capítulo donde usted está.',
-u'# QUÉ PASA AL ENVIAR',
-u'> Cada comentario enviado se convierte en una nota nueva en el proyecto que lo recibe, en el mismo versículo (ajustado a la versificación de ese proyecto), a su nombre. Una nota sobre un rango de versículos (por ejemplo ACT 1:13-14) conserva el mismo rango. Se conservan la negrita y la cursiva.',
-u'> Cuando la nota del proyecto de notas de consultor está vinculada a unas palabras y el proyecto que la recibe tiene esas palabras en ese versículo, la nota nueva se vincula a las mismas palabras. Si no, se vincula al versículo.',
-u'> Se agrega "Enviada a PDT15 el 2026-11-03." como un comentario nuevo a la nota del proyecto de notas de consultor. La nota sigue abierta.',
-u'> Con "Ocultar las notas ya enviadas a este proyecto" marcado, se ocultan las notas ya enviadas al proyecto elegido. Si envía una nota de nuevo, la herramienta pregunta antes.',
-u'> Si usted no puede agregar notas al proyecto que las recibe (por ejemplo porque es observador allí), no se envía nada y el cuadro Resultados lo dice.',
-u'> Las notas resueltas no se muestran a menos que "Incluir las notas resueltas" esté marcado.',
-u'Las notas pasan por el mismo Paratext, así que Enviar/Recibir las comparte como cualquier otra nota.',
-]
-
-FR = [
-u'# BUT',
-u'Envoyer des notes à un projet est un module d\'extension de Paratext pour les consultants. Les consultants écrivent souvent leurs notes dans un projet de notes de consultant (par exemple PLe11). Quand une note est prête, cet outil envoie le commentaire que vous choisissez au projet lui-même (par exemple PDT15), comme une nouvelle note au même verset, sans avoir à le retaper.',
-u'Chaque note peut être une suite de plusieurs commentaires. Vous choisissez le commentaire à envoyer ; le dernier est choisi au départ.',
-u'L\'outil lit un chapitre à la fois.',
-u'# INSTALLATION',
-u'1. T\u00e9l\u00e9chargez Install_Phils_tools.exe depuis le dossier Paratext_Plugins. Si le navigateur vous avertit au sujet du fichier, choisissez de le conserver.',
-u'2. Fermez Paratext.',
-u'3. Double-cliquez sur Install_Phils_tools.exe. Si Windows indique qu\'il a prot\u00e9g\u00e9 votre ordinateur, cliquez sur \u00ab Informations compl\u00e9mentaires \u00bb, puis sur \u00ab Ex\u00e9cuter quand m\u00eame \u00bb (l\'installateur n\'est pas encore sign\u00e9).',
-u'4. Cochez Envoyer des notes \u00e0 un projet et cliquez sur \u00ab Installer / mettre \u00e0 jour \u00bb. Il s\'installe dans chaque Paratext 9 de l\'ordinateur. Si Windows demande l\'autorisation, cliquez sur Oui. La m\u00eame fen\u00eatre met le module \u00e0 jour plus tard (son statut indique alors \u00ab Mise \u00e0 jour disponible \u00bb) ou le retire (\u00ab Supprimer les coch\u00e9s \u00bb), et son bouton \u00ab Guide de l\'utilisateur \u00bb ouvre ce guide.',
-u'# UTILISATION',
-u'1. Ouvrez le projet qui va recevoir les notes (par exemple PDT15) et choisissez Outils > Envoyer des notes à un projet... L\'outil ne peut pas être lancé depuis le projet de notes de consultant. La fenêtre s\'ouvre au livre et au chapitre que vous regardez.',
-u'2. Dans « De », choisissez le projet de notes de consultant d\'où viennent les notes. La liste propose tous les projets de notes de consultant de l\'ordinateur.',
-u'3. Dans « Envoyer à », choisissez le projet qui doit recevoir les notes. Seuls les projets auxquels vous pouvez ajouter des notes sont listés (vous n\'y êtes pas observateur). Votre choix est mémorisé pour ce projet de notes de consultant et reste le choix par défaut jusqu\'à ce que vous choisissiez un autre projet.',
-u'4. Choisissez le livre et le chapitre, ou utilisez « < Précédent » et « Suivant > ». Avec « Suivre Paratext » coché, la fenêtre passe au chapitre où vous allez dans Paratext.',
-u'Pour voir les notes d\'un seul verset au lieu du chapitre entier, cochez « Seulement le verset » et choisissez le verset. « < Précédent » et « Suivant > » avancent alors d\'un verset à la fois, et « Suivre Paratext » suit le verset. Une note sur une suite de versets (par exemple ACT 1:4-6) apparaît à chacun de ses versets. L\'outil mémorise ce choix.',
-u'5. La liste montre les notes de ce chapitre : la référence, le commentaire qui sera envoyé, le nombre de commentaires et où la note a déjà été envoyée.',
-u'6. Cliquez sur une note pour voir tous ses commentaires sous la liste. Cliquez sur le commentaire à envoyer ; « Sera envoyé » montre exactement ce que dira la nouvelle note. Un commentaire « Envoyée à ... » ne peut pas être envoyé.',
-u'7. Cochez les notes à envoyer (« Tout cocher » coche chaque note qui a du texte), puis cliquez sur « Envoyer les notes cochées » et répondez Oui.',
-u'« Aller au verset dans Paratext » (ou un double-clic sur une note) montre le verset dans le projet qui reçoit les notes.',
-u'La fenêtre peut rester ouverte pendant que vous travaillez dans Paratext. Pour voir les notes ajoutées ou modifiées depuis, choisissez de nouveau Outils > Envoyer des notes à un projet... : la liste est relue, les notes cochées restent cochées et, avec « Suivre Paratext » coché, la fenêtre passe au chapitre où vous êtes.',
-u'# CE QUI SE PASSE À L\'ENVOI',
-u'> Chaque commentaire envoyé devient une nouvelle note dans le projet qui le reçoit, au même verset (adapté à la versification de ce projet), à votre nom. Une note sur une suite de versets (par exemple ACT 1:13-14) garde la même suite. Le gras et l\'italique sont conservés.',
-u'> Quand la note du projet de notes de consultant est attachée à des mots et que le projet qui la reçoit a ces mots dans ce verset, la nouvelle note est attachée aux mêmes mots. Sinon, elle est attachée au verset.',
-u'> « Envoyée à PDT15 le 2026-11-03. » est ajouté comme nouveau commentaire à la note du projet de notes de consultant. La note reste ouverte.',
-u'> Avec « Masquer les notes déjà envoyées à ce projet » coché, les notes déjà envoyées au projet choisi sont masquées. Si vous envoyez de nouveau une note, l\'outil le demande d\'abord.',
-u'> Si vous ne pouvez pas ajouter de notes au projet qui les reçoit (par exemple parce que vous y êtes observateur), rien n\'est envoyé et la zone Résultats l\'indique.',
-u'> Les notes résolues ne sont pas montrées, sauf si « Inclure les notes résolues » est coché.',
-u'Les notes passent par Paratext lui-même, donc Envoyer/Recevoir les partage comme toute autre note.',
->>>>>>> 057390ea1c9eaaf472f51f6516e34b020467b583
 ]

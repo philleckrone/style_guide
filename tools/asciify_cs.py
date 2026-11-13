@@ -1,10 +1,6 @@
 # -*- coding: utf-8 -*-
 # Keeps the C# sources ASCII: replaces every non-ASCII character in the
-<<<<<<< HEAD
 # Style_Guide *.cs files (plugin and tests) with a C# backslash-u escape
-=======
-# Send_Notes *.cs files (plugin and tests) with a C# backslash-u escape
->>>>>>> 057390ea1c9eaaf472f51f6516e34b020467b583
 # (four hex digits), which is safe in string literals and harmless in comments.
 # Prints the files it changed. Run with any Python 3:
 #     python tools/asciify_cs.py

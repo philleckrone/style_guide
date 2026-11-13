@@ -6,15 +6,9 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-<<<<<<< HEAD
     <OutputType>Exe</OutputType>
     <RootNamespace>StyleGuideTests</RootNamespace>
     <AssemblyName>StyleGuideTestHost</AssemblyName>
-=======
-    <OutputType>WinExe</OutputType>
-    <RootNamespace>SendNotesTests</RootNamespace>
-    <AssemblyName>SendNotesTestHost</AssemblyName>
->>>>>>> 057390ea1c9eaaf472f51f6516e34b020467b583
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <LangVersion>5</LangVersion>
     <OutputPath>bin\$(Configuration)\</OutputPath>
@@ -25,15 +19,11 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
-<<<<<<< HEAD
     <Reference Include="System.IO.Compression" />
-=======
->>>>>>> 057390ea1c9eaaf472f51f6516e34b020467b583
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <Compile Include="..\..\StyleGuidePlugin\Answers.cs"><Link>Answers.cs</Link></Compile>
     <Compile Include="..\..\StyleGuidePlugin\BookChoice.cs"><Link>BookChoice.cs</Link></Compile>
     <Compile Include="..\..\StyleGuidePlugin\BookChooserForm.cs"><Link>BookChooserForm.cs</Link></Compile>
@@ -139,25 +129,5 @@
       <LogicalName>ProjectSettings.usfm.sty</LogicalName>
     </EmbeddedResource>
   </ItemGroup>
-=======
-    <Compile Include="..\..\SendNotesPlugin\Model.cs">
-      <Link>Model.cs</Link>
-    </Compile>
-    <Compile Include="..\..\SendNotesPlugin\SendNotesForm.cs">
-      <Link>SendNotesForm.cs</Link>
-    </Compile>
-    <Compile Include="..\..\SendNotesPlugin\SendRunner.cs">
-      <Link>SendRunner.cs</Link>
-    </Compile>
-    <Compile Include="..\..\SendNotesPlugin\Settings.cs">
-      <Link>Settings.cs</Link>
-    </Compile>
-    <Compile Include="..\..\SendNotesPlugin\Strings.cs">
-      <Link>Strings.cs</Link>
-    </Compile>
-    <Compile Include="FolderNotes.cs" />
-    <Compile Include="Program.cs" />
-  </ItemGroup>
->>>>>>> 057390ea1c9eaaf472f51f6516e34b020467b583
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
