@@ -1,0 +1,40 @@
+# Headings Module (v2.1, Rev 06-Sep-24): one line per "Our Project" row.
+# id	table	row	survey key	prefill (y/n)	references whose project text is shown
+hd-sources	0	1	hd-overview	n
+hd-permission	0	2		n
+hd-mixed	0	3		n
+hd-team	0	4		n
+bn-spelling	1	1	bn-numbers	y
+bn-extra	1	2	bn-extra	y
+bn-extra-groups	1	3	bn-extra-groups	y
+bn-length	1	4	bn-length	y
+bn-abbrev	1	5	bn-abbrev	y
+bn-numbered	1	6	bn-numbered	y
+bn-caps	1	7	bn-caps	y
+bn-allcaps	1	8	bn-allcaps	y
+usfm-toc1	2	1	toc1	y
+usfm-toc2	2	2	toc2	y
+bn-plural	2	3	bn-plural	y
+usfm-toc3	2	4	toc3	y
+xref-names	2	5	xref-names	y
+s-general	3	1	s-length	y	MAT 27:32; MRK 15:21; LUK 23:26; JHN 19:16
+s-types	3	2	s-types	y
+s-strategies	3	3	s-books	y
+s-caps	3	4	s-caps	y
+s-tense	3	5		n	JDG 1:1; 1SA 8:1; 2SA 1:1
+s-end	3	6	s-end	y	GEN 6:9; LEV 19:1; GEN 29:14; NUM 12:1
+s-mid	3	7	s-mid	y
+nb-lists	4	1	nb-lists	y
+nb-numbered	4	2	nb-numbered	y
+nb-plain	4	3	nb-plain	y
+nb-bullets	4	4	nb-bullets	y
+intro	5	1	intro	y
+intro-usfm	5	2	intro-usfm	y
+intro-lists	5	3	intro-lists	y
+outline	6	1	outline	y
+outline-style	6	2	outline-style	y
+outline-usfm	6	3	outline-usfm	y
+other-comments	7	1		n
+other-1	7	2		n
+other-2	7	3		n
+other-3	7	4		n

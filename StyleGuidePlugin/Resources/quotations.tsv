@@ -1,0 +1,64 @@
+# Quotations Module (v2.1, Rev 10-Aug-24): one line per "Our Project" row.
+# id	table	row	survey key	prefill (y/n)	references whose project text is shown
+qu-dialogue	0	1	qu-speech	y	2KI 2:4
+qu-long-speech	0	2		n	MAT 5:3; MAT 7:27
+qu-prayers	0	3		n	MAT 6:9; DAN 9:4; PSA 5:1
+qu-thoughts	0	4		n	EXO 3:3
+qu-quoting	0	5		n	JER 6:14
+qu-instructions	0	6		n	DEU 27:16
+qu-proclamations	0	7		n	NUM 21:21; NUM 21:22
+qu-commands	0	8		n	GEN 1:3; MAT 21:21
+qu-creatures	0	9		n	NUM 22:28; ISA 45:9
+qu-naming	1	1	qu-short	y	GEN 1:10
+qu-name-meaning	1	2		n	MAT 1:23
+qu-tunes	1	3		n	PSA 45:1
+qu-special	1	4		n	1CO 8:5; HEB 8:13
+qu-irony	1	5		n	2CO 11:5
+qu-indirect	2	1		n	1KI 8:12
+qu-titles	2	2		n	2KI 13:12
+qu-level1	3	1	qu-system	y	GEN 3:9; GEN 3:10
+qu-level2	3	2	qu-level2	y	MAT 9:4; MAT 9:5
+qu-level3	3	3	qu-level3	y	NUM 11:18; NUM 11:20
+qu-level4	3	4	qu-level4	y	JER 27:8; JER 27:10
+qu-continuers	4	1	qu-continuers	y	MAT 6:1; MAT 6:2
+qu-cont-headings	4	2	qu-cont-headings	y	JHN 15:17; JHN 15:18
+qu-no-cont	4	3	qu-no-cont	y	LUK 6:20; LUK 6:37
+qu-cont-poetry	4	4	qu-cont-poetry	y	NUM 24:5; NUM 24:6; NUM 24:7
+qu-no-cont-poetry	4	5		n
+qu-cont-lists	4	6	qu-cont-lists	y	EXO 20:2; EXO 20:3; EXO 20:4
+qu-deut	4	7	qu-deut	y	DEU 1:6; DEU 5:1; DEU 27:12; DEU 29:2
+qu-long-end	4	8		n
+qu-dashes	5	1	qu-dashes	y	1SA 23:10; 1SA 23:11; 1SA 23:12
+qu-dash-cont	5	2		n
+qu-margins	6	1	qu-margins	y	GEN 33:8; GEN 33:9; GEN 33:10
+qu-says-lord	6	2	qu-says-lord	y	MAL 1:11; MAL 1:13
+qu-same-para	6	3	qu-same-para	y	1SA 20:36; 1SA 21:1; 1SA 21:2
+qu-poetry-start	6	4	qu-poetry-start	y	DEU 33:22
+qu-m-after	6	5	qu-m-after	y	MAT 26:31; MAT 26:32
+qu-margin-sentence	7	1		n	LUK 5:26
+qu-before-comma	7	2	qu-before	y	JHN 13:8
+qu-before-colon	7	3	qu-before	n	LUK 9:3
+qu-before-stop	7	4	qu-before	n	MAT 13:54; MAT 13:55
+qu-middle	7	5	qu-middle	y	GEN 19:2; GEN 25:32
+qu-caps-before	7	6	qu-caps-before	y	LUK 12:15
+qu-caps-middle	7	7	qu-caps-middle	y	LUK 19:40
+qu-end-margin	8	1	qu-end-margin	y	JHN 18:17; JHN 18:35
+qu-end-punct	8	2	qu-end-punct	y	ACT 9:34
+qu-inner-stop	9	1	qu-inner-stop	y	MAT 3:9
+qu-inner-q	9	2	qu-inner-q	y	MAT 6:31
+qu-inner-q-about	9	3	qu-inner-q	n	MAT 9:5
+qu-inner-ex	9	4	qu-inner-ex	y	MAT 5:22
+qu-inner-semi	9	5	qu-inner-semi	y	MAT 5:37; LUK 10:27; 1CO 1:12
+qu-ot-prose	10	1	qu-ot-prose	y	MAT 2:15; MAT 22:37
+qu-ot-poetry	10	2	qu-ot-poetry	y	MRK 1:2; MRK 1:3
+qu-ot-allusion	10	3		n	REV 1:13
+qu-naming-punct	11	1	qu-naming-punct	y	GEN 1:10; HEB 8:13; 2CO 11:5
+qu-parens	11	2	qu-parens	y	1CO 8:5; MAT 1:23
+qu-caller	12	1	qu-caller	y	MAT 21:9
+qu-caller-inner	12	2	qu-caller-inner	y	MAT 19:4
+qu-caller-between	12	3	qu-caller-between	y	MAT 19:19
+qu-caller-inside	12	4	qu-caller-inside	y	MRK 9:29
+other-1	13	1		n
+other-2	13	2		n
+other-3	13	3		n
+other-4	13	4		n

@@ -1,0 +1,28 @@
+# Hyphenation Module (v2.0, Rev 10-Jul-22): one line per "Our Project" row.
+# id	table	row	survey key	prefill (y/n)	references whose project text is shown
+hy-allowed	0	1	hy-list	y
+hy-char	0	2	hy-char	y
+hy-realized	0	3	hy-char	n
+hy-marking	0	4	hy-marking	y
+hy-authority	0	5		n
+hy-readers	1	1		n
+hy-columns	1	2		n
+hy-long	2	1	hy-length	y
+hy-affixes	2	2	hy-affixes	n
+hy-syllable	2	3		n
+hy-hard	2	4	hy-hard	y
+hy-hard-soft	2	5	hy-hard-soft	y
+hy-names	2	6	hy-names	y
+hy-min	2	7	hy-min	y
+hy-consonants	2	8	hy-consonants	y
+hy-cv	2	9	hy-cv	y
+hy-vowels	2	10	hy-vowels	y
+hy-rules	2	11	hy-rules	n
+hy-consistency	2	12	hy-consistency	y
+hy-bad	2	13		n
+hy-markers	3	1	hy-markers	y
+hy-publishing	4	1		n
+other-comments	5	1		n
+other-1	5	2		n
+other-2	5	3		n
+other-3	5	4		n

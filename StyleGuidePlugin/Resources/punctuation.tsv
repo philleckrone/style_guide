@@ -1,0 +1,53 @@
+# Punctuation Module (v2.3, Rev 17-Dec-25): one line per "Our Project" row.
+# id	table	row	survey key	prefill (y/n)	references whose project text is shown
+model-exegesis	0	0	models	y
+model-layout	0	1	models	n
+punct-guide	0	2		n
+sent-general	1	1	sent-general	y
+sent-question	1	2	sent-question	y
+sent-exclaim	1	3	sent-exclaim	y
+comma	1	4	comma	y
+serial-comma	1	5	serial-comma	y	MRK 5:37
+comma-clauses	1	6	comma	n	GEN 1:2
+comma-relative	1	7	comma	n	GEN 18:10
+speech-comma	1	8	speech-comma	y	GEN 2:16; GEN 3:4
+comma-intro	1	9	comma	n	GEN 3:24
+vocative	1	10	vocative	y	NUM 16:22; JOB 17:3; PSA 5:10; EXO 5:4; ACT 9:4; LUK 1:28; JDG 5:3
+semicolon	2	1	semicolon	y
+semicolon-complex	2	2	semicolon	n	LUK 7:8
+semicolon-clauses	2	3	semicolon	n	LUK 5:10
+colon	2	4	colon	y	ISA 13:1; ISA 13:2
+colon-list	2	5	colon-list	y	LUK 6:13
+colon-speech	2	6	colon-speech	y	MAT 3:7
+colon-explain	2	7	colon	n	LUK 12:24
+colon-letters	2	8	colon	n	GAL 1:2
+dash-paren	3	1	dash-paren	y	ACT 1:23; 1CO 1:5; 1CO 1:6
+endash-range	3	2	endash-range	y	MRK 16:9
+endash-spaced	3	3	endash-spaced	y	LUK 3:14
+emdash	3	4	emdash	y	GEN 1:30; EXO 28:6
+dash-examples	3	5	emdash	n
+dash-aside	3	6	emdash	n	JHN 15:16
+dash-explain	3	7	emdash	n	ACT 5:21
+dash-change	3	8	emdash	n	ROM 7:1
+parens	3	9	parens	y
+parens-aside	3	10	parens	n	LUK 2:22; LUK 2:23
+parens-comment	3	11	parens	n	MAT 27:33
+parens-place	3	12	parens	n	GEN 14:3
+parens-sentence	3	13	parens	n	EXO 6:16
+brackets	3	14	brackets	y	MRK 16:9; JHN 7:53
+ellipsis	4	1	ellipsis	y
+ellipsis-notes	4	2	ellipsis-notes	y	PSA 8:6
+ellipsis-unfinished	4	3	ellipsis	n	MRK 11:32
+ellipsis-quote	4	4	ellipsis	n	NUM 21:14
+slash	4	5	slash	y	GEN 49:22; EXO 25:23
+abbrev-general	5	1	abbrev	y
+abbrev-text	5	2	abbrev-text	y
+abbrev-books	5	3	abbrev-books	y
+abbrev-notes	5	4	abbrev-notes	y	
+abbrev-maps	5	5		n
+other-marks	6	1	other-marks	y
+doubled	6	2	doubled	y
+space-before	6	3	space-before	y	LUK 1:66
+other-comments	6	4		n
+other-1	6	5		n
+other-2	6	6		n

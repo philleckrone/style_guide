@@ -1,0 +1,37 @@
+# Numbers, Weights, Measures, Time Module (v1.0, Rev 04-Apr-23): one line per "Our Project" row.
+# id	table	row	survey key	prefill (y/n)	references whose project text is shown
+nm-number-settings	0	1	nm-settings	y
+nm-reference-settings	1	1	nm-references	y
+nm-how-long	2	1	nm-years	y	GEN 5:32; GEN 7:6; 2KI 8:17; EXO 12:40; EXO 16:35; EZK 4:5
+nm-how-many	2	2	nm-counts	y
+nm-how-much	2	3	nm-money	y
+nm-order	2	4	nm-order	y
+nm-symbolic	2	5		n	REV 7:4; REV 21:16
+nm-units	2	6		n	MAT 5:41
+nm-rounding	2	7		n
+nm-ordinals	3	1	nm-ordinals	y
+nm-fractions	3	2	nm-fractions	y	DAN 12:7
+nm-rule	3	3	nm-rule	y
+nm-paragraphs	3	4	nm-paragraphs	y	JOS 14:10
+nm-lists	3	5	nm-lists	y	1CH 12:25; 1CH 12:26
+nm-accounting	3	6	nm-accounting	y	EZR 1:9
+nm-notes	4	1	nm-notes	y	GEN 7:20; 2SA 8:4
+nm-eras	4	2	nm-eras	y
+nm-headings	4	3	nm-headings	y
+nm-measures	5	1	nm-measures	y	JDG 3:16; 2KI 7:16; 2CH 2:10
+nm-value	5	2		n
+nm-length	5	3	nm-length	y
+nm-other-measures	5	4		n
+nm-audience	7	1		n
+nm-ancient	7	2	nm-ancient	y
+nm-modern	7	3	nm-modern	y	EXO 30:23
+nm-other-terms	7	4		n
+nm-time	8	1		n
+nm-watches	8	2	nm-watches	y	EXO 14:24; MAT 14:25
+nm-hours	8	3	nm-hours	y	MAT 20:3; MAT 27:45; MRK 15:25; ACT 3:1
+nm-other-time-1	8	4		n
+nm-other-time-2	8	5		n
+other-1	9	1		n
+other-2	9	2		n
+other-3	9	3		n
+other-4	9	4		n
