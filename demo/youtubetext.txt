@@ -1,0 +1,23 @@
+﻿Biblica's style guides are a series of English guides that Biblica uses to help translation teams set out the standards for their project: punctuation, footnotes, headings, hyphenation, lists, numbers, poetry, quotations, syntax, and more. Each module is a Word document with a table of questions, NIV's practice, and a yellow cell for the team's own answer. Style Guide is a Paratext tool that reads your project and fills in those answers for you: it surveys the text, suggests an answer for each question, and shows the places it found. The team reviews or edits each answer, and then exports the module to Word with the yellow cells filled in. The answers are saved in the project's local folder only.
+
+Download Install_Phils_tools.exe from the Paratext Plugins folder, and tick Style Guide in it:
+https://short.do/HgUb7T
+
+0:16 How do I open Style Guide?
+0:24 What are Biblica's style guides?
+0:47 What does the list on the left show?
+1:08 What does each question show?
+1:30 How can I check the suggestion?
+1:46 How do I give our own answer?
+2:06 How do I get the filled-in module?
+2:24 What does the exported document look like?
+2:38 Which modules can I fill in?
+2:59 What does the Quotations module find?
+3:22 Can I survey only some books?
+3:37 How do I install the tool?
+
+Created with Claude AI.
+Narration: AI-generated voice (Microsoft Azure AI Speech, voice "Jenny").
+Music from Free To Use
+Source: https://freetouse.com/music
+Coconut Kind of Love by Aetheric

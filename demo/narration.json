@@ -1,0 +1,79 @@
+{
+  "cues": "{1} before a phrase shows box 1 of the step from there on, {0,2} boxes 0 and 2, {} none; the pointer goes on the first box named. Cues are not spoken or shown. 'q' is the step's question in the YouTube timecodes (youtubetext.txt).",
+  "youtube": {
+    "en": {
+      "about": "Biblica's style guides are a series of English guides that Biblica uses to help translation teams set out the standards for their project: punctuation, footnotes, headings, hyphenation, lists, numbers, poetry, quotations, syntax, and more. Each module is a Word document with a table of questions, NIV's practice, and a yellow cell for the team's own answer. Style Guide is a Paratext tool that reads your project and fills in those answers for you: it surveys the text, suggests an answer for each question, and shows the places it found. The team reviews or edits each answer, and then exports the module to Word with the yellow cells filled in. The answers are saved in the project's local folder only.",
+      "download": "Download Install_Phils_tools.exe from the Paratext Plugins folder, and tick Style Guide in it:",
+      "link": "https://short.do/HgUb7T",
+      "credits": [
+        "Created with Claude AI.",
+        "Narration: AI-generated voice (Microsoft Azure AI Speech, voice \"Jenny\").",
+        "Music from Free To Use",
+        "Source: https://freetouse.com/music",
+        "Coconut Kind of Love by Aetheric"
+      ]
+    }
+  },
+  "steps": [
+    {
+      "id": "title",
+      "en": { "title": "Style Guide", "sub": "A Paratext tool: fill in Biblica's style-guide modules from your project's text", "text": "Style Guide is a Paratext tool. It helps your team fill in Biblica's style guides, using what your project already does." }
+    },
+    {
+      "id": "s00_menu",
+      "en": { "title": "Open it from the Tools menu", "q": "How do I open Style Guide?", "text": "In Paratext, open the project. Then choose {0}Tools, then {1}Style Guide." }
+    },
+    {
+      "id": "s01_biblica",
+      "en": { "title": "Biblica's style guides", "q": "What are Biblica's style guides?", "text": "Biblica's style guides are a series of English guides. Biblica uses them to help translation teams set out the standards for their project. {0}Each guide is a module, such as Punctuation, Footnotes, Headings, Poetry or Quotations. {1}When the window opens, the tool reads the books of the project and surveys the first module." }
+    },
+    {
+      "id": "s02_tree",
+      "en": { "title": "The questions of the module", "q": "What does the list on the left show?", "text": "{0}On the left are the module's sections and questions. An empty circle is a question with no answer yet. An orange diamond is an answer the survey suggested. A green dot is an answer your team has reviewed. {1}Here, the survey has already suggested many of the answers." }
+    },
+    {
+      "id": "s03_question",
+      "en": { "title": "One question", "q": "What does each question show?", "text": "This question is about the question mark. {0}At the top are the topic and what the NIV does. {1}Below it, in yellow, is your project's answer. Here, the survey found that questions end with a question mark and also open with an inverted one. {2}Underneath is what the survey found, for reference." }
+    },
+    {
+      "id": "s04_found",
+      "en": { "title": "What was found in the project", "q": "How can I check the suggestion?", "text": "{0}The summary repeats what was found. {1}On the left are the patterns, with how often each occurs. {2}On the right are the places, with the words around them. Double-click a line to go to that verse in Paratext." }
+    },
+    {
+      "id": "s05_reviewed",
+      "en": { "title": "Your team's answer", "q": "How do I give our own answer?", "text": "{0}Edit the answer as your team decides. Here, a sentence was added. {1}Typing ticks Reviewed, {2}and the question turns green. {3}Click Save. {4}The answers are kept in the project's local folder. They are also saved when you move to another question or close the window." }
+    },
+    {
+      "id": "s09_export",
+      "en": { "title": "Export to Word", "q": "How do I get the filled-in module?", "text": "{0}When the module is done, click Export to Word. {1}If some suggestions have not been reviewed yet, the tool asks whether to include them. {2}Click Yes to include them, or No to leave those cells empty. Then choose where to save the document." }
+    },
+    {
+      "id": "s10_word",
+      "en": { "title": "Biblica's module, filled in", "q": "What does the exported document look like?", "text": "The export is Biblica's own module, with the same tables. {0}Each answer goes into the question's yellow cell, {1}one paragraph for each line. Your team can go on working on it in Word." }
+    },
+    {
+      "id": "s06_module",
+      "en": { "title": "Other modules", "q": "Which modules can I fill in?", "text": "{0}Choose another module here: Punctuation, Footnotes, Headings, Hyphenation, Lists, Numbers, Poetry, Quotations, and Syntax. Three draft modules follow. Each module keeps its own answers. {1}A module is surveyed the first time it is shown." }
+    },
+    {
+      "id": "s07_quotes",
+      "en": { "title": "The quotation marks", "q": "What does the Quotations module find?", "text": "{0}In Quotations, this question asks about the quotation marks of each level. {1}The NIV uses curly double quotes. {2}The survey found that this project opens its quotations with angle quotation marks, 2,508 times. The tool reads the marks from the project's settings, and counts them in the text." }
+    },
+    {
+      "id": "s08_books",
+      "en": { "title": "Choose the books to survey", "q": "Can I survey only some books?", "text": "{0}The Books button chooses which books are surveyed. {1}For example, choose the New Testament when only it is drafted. {2}Click OK to read the books again. The choice is kept for every module." }
+    },
+    {
+      "id": "sec_install",
+      "en": { "title": "Installing the tool", "q": "How do I install the tool?", "text": "Installing the tool." }
+    },
+    {
+      "id": "i5_ready",
+      "en": { "title": "Ready to use", "text": "Start Paratext again. {1,0}Style Guide is now on the Tools menu." }
+    },
+    {
+      "id": "end",
+      "en": { "title": "Style Guide", "sub": "Biblica's style-guide modules  ·  Answers suggested from your text  ·  Exported to Word", "text": "Style Guide fills in Biblica's style guides from your project's text. Your team reviews each answer, and exports the module to Word." }
+    }
+  ]
+}
